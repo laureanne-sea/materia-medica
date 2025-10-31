@@ -1,6 +1,3 @@
-// Plants Data
-// This file contains all plant information for the Materia Medica
-
 window.PLANTS_DATA = [
   {
     "commonName": "Buchu",
@@ -14,7 +11,8 @@ window.PLANTS_DATA = [
     "properties": [
       "Urinary antiseptic",
       "Sedative",
-      "Diuretic"
+      "Diuretic",
+      "Antiseptic (urinary)"
     ],
     "status": "in-progress",
     "fileSlug": "buchu"
@@ -31,7 +29,8 @@ window.PLANTS_DATA = [
     "properties": [
       "Blood purifying",
       "Laxative",
-      "Lymphatic stimulant"
+      "Lymphatic stimulant",
+      "Blood purifier"
     ],
     "status": "in-progress",
     "fileSlug": "burdock"
@@ -72,7 +71,10 @@ window.PLANTS_DATA = [
       "Circulatory stimulant",
       "Expectorant",
       "Diaphoretic",
-      "Weight reducing"
+      "Weight reducing",
+      "Metabolism raising",
+      "Blood pressure raising",
+      "Mucolytic"
     ],
     "status": "in-progress",
     "fileSlug": "cayenne"
@@ -142,7 +144,10 @@ window.PLANTS_DATA = [
       "Emollient",
       "Vulnerary",
       "Antipruritic",
-      "Antacid"
+      "Antacid",
+      "Anti-inflammatory (digestive/mucous membranes/skin)",
+      "Anti-inflammatory (external)",
+      "Healing"
     ],
     "status": "in-progress",
     "fileSlug": "chickweed"
@@ -169,7 +174,8 @@ window.PLANTS_DATA = [
       "Blood sugar regulating",
       "Carminative",
       "Antiparasitic",
-      "Antifungal"
+      "Antifungal",
+      "Aldose reductase inhibitor"
     ],
     "status": "in-progress",
     "fileSlug": "cinnamon"
@@ -186,7 +192,8 @@ window.PLANTS_DATA = [
     "properties": [
       "Blood purifying",
       "Laxative",
-      "Lymphatic stimulant"
+      "Lymphatic stimulant",
+      "Blood purifier"
     ],
     "status": "in-progress",
     "fileSlug": "cleavers"
@@ -297,7 +304,11 @@ window.PLANTS_DATA = [
       "Immunomodulating",
       "Lymphatic stimulant",
       "Sialagogue",
-      "Antifungal"
+      "Antifungal",
+      "Anti-inflammatory (digestive/mucous membranes/skin)",
+      "Anti-inflammatory (external)",
+      "Blood purifier",
+      "Healing"
     ],
     "status": "in-progress",
     "fileSlug": "echinacea"
@@ -318,7 +329,10 @@ window.PLANTS_DATA = [
       "Bronchial antispasmodic",
       "Antispasmodic",
       "Expectorant",
-      "Diaphoretic"
+      "Diaphoretic",
+      "Blood pressure regulating",
+      "Bronchial spasmolytic",
+      "Mucolytic"
     ],
     "status": "in-progress",
     "fileSlug": "elecampane"
@@ -383,7 +397,10 @@ window.PLANTS_DATA = [
       "Blood purifying",
       "Vulnerary",
       "Nervine tonic",
-      "Tonic"
+      "Tonic",
+      "Anti-inflammatory (external)",
+      "Blood purifier",
+      "Healing"
     ],
     "status": "in-progress",
     "fileSlug": "gotu-kola"
@@ -441,7 +458,11 @@ window.PLANTS_DATA = [
       "Expectorant",
       "Sialagogue",
       "Diaphoretic",
-      "Weight reducing"
+      "Weight reducing",
+      "Anti-inflammatory (cardiovascular)",
+      "Anti-inflammatory (digestive/mucous membranes/skin)",
+      "Metabolism raising",
+      "Mucolytic"
     ],
     "status": "in-progress",
     "fileSlug": "ginger"
@@ -465,7 +486,8 @@ window.PLANTS_DATA = [
       "Vasodilator",
       "Circulatory stimulant",
       "Nootropic",
-      "Venotonic"
+      "Venotonic",
+      "Anti-inflammatory (cardiovascular)"
     ],
     "status": "in-progress",
     "fileSlug": "ginkgo"
@@ -495,11 +517,17 @@ window.PLANTS_DATA = [
       "Hypnotic",
       "Immunomodulating",
       "Interferon promoting",
-      "Female tonic",
+      "Woman tonic",
       "Hepatoprotective",
       "Male tonic",
       "Tonic",
-      "Estrogen regulating"
+      "Estrogen regulating",
+      "Antiarrhythmic",
+      "Hemostatic",
+      "Blood pressure raising",
+      "Cardioprotective",
+      "Interferon stimulating",
+      "Cholesterol lowering"
     ],
     "status": "in-progress",
     "fileSlug": "ginseng"
@@ -521,7 +549,10 @@ window.PLANTS_DATA = [
       "Antispasmodic",
       "Nervine tonic",
       "Analgesic",
-      "Antiperspirant"
+      "Antiperspirant",
+      "Healing",
+      "Nerve tonic",
+      "Anhidrotic"
     ],
     "status": "in-progress",
     "fileSlug": "hops"
@@ -600,7 +631,15 @@ window.PLANTS_DATA = [
       "Mucous membrane strengthening",
       "Mucous membrane tonic",
       "Expectorant",
-      "Tonic"
+      "Tonic",
+      "Aldose reductase inhibitor",
+      "Anti-inflammatory (digestive/mucous membranes/skin)",
+      "Anti-inflammatory (external)",
+      "Antiviral (external)",
+      "Blood pressure raising",
+      "Bronchial spasmolytic",
+      "Healing",
+      "Mucolytic"
     ],
     "status": "in-progress",
     "fileSlug": "licorice"
@@ -654,7 +693,10 @@ window.PLANTS_DATA = [
     "properties": [
       "Vulnerary",
       "Mucous reducing (lower respiratory)",
-      "Expectorant"
+      "Expectorant",
+      "Healing",
+      "Mucolytic",
+      "Mucostatic (lower respiratory)"
     ],
     "status": "in-progress",
     "fileSlug": "mullein"
@@ -681,7 +723,11 @@ window.PLANTS_DATA = [
       "Choleretic",
       "Uterine contractor",
       "Galactagogue",
-      "Prostate growth inhibiting"
+      "Prostate growth inhibiting",
+      "Anti-inflammatory (external)",
+      "Blood purifier",
+      "Blood strengthening",
+      "Uterine contracting"
     ],
     "status": "in-progress",
     "fileSlug": "nettles"
@@ -696,7 +742,13 @@ window.PLANTS_DATA = [
     ],
     "properties": [
       "Blood purifying",
-      "Choleretic"
+      "Choleretic",
+      "Anti-inflammatory (respiratory)",
+      "Anti-inflammatory (digestive/mucous membranes/skin)",
+      "Antimicrobial",
+      "Bitter tonic",
+      "Blood purifier",
+      "Cholagogue"
     ],
     "status": "in-progress",
     "fileSlug": "oregon-grape",
@@ -737,7 +789,8 @@ window.PLANTS_DATA = [
       "Antipruritic",
       "Antispasmodic",
       "Antifungal",
-      "Diaphoretic"
+      "Diaphoretic",
+      "Anti-inflammatory (digestive/mucous membranes/skin)"
     ],
     "status": "in-progress",
     "fileSlug": "peppermint"
@@ -769,7 +822,11 @@ window.PLANTS_DATA = [
       "Vulnerary",
       "Mucous reducing (upper respiratory)",
       "Mucous membrane strengthening",
-      "Expectorant"
+      "Expectorant",
+      "Emollient",
+      "Healing",
+      "Mucolytic",
+      "Mucostatic (upper respiratory)"
     ],
     "status": "in-progress",
     "fileSlug": "plantain",
@@ -785,7 +842,8 @@ window.PLANTS_DATA = [
       "skin"
     ],
     "properties": [
-      "Bronchial antispasmodic"
+      "Bronchial antispasmodic",
+      "Bronchial spasmolytic"
     ],
     "status": "in-progress",
     "fileSlug": "pleurisy",
@@ -838,9 +896,11 @@ window.PLANTS_DATA = [
       "Antidepressant",
       "Sedative",
       "Blood purifying",
-      "Female tonic",
+      "Woman tonic",
       "Diuretic",
-      "Estrogen regulating"
+      "Estrogen regulating",
+      "Anti-inflammatory (female reproductive)",
+      "Blood purifier"
     ],
     "status": "in-progress",
     "fileSlug": "red-clover"
@@ -875,7 +935,11 @@ window.PLANTS_DATA = [
     "properties": [
       "Sedative",
       "Antispasmodic",
-      "Nervine tonic"
+      "Nervine tonic",
+      "Antiallergic",
+      "Antiviral (internal)",
+      "Blood pressure regulating",
+      "Nerve tonic"
     ],
     "status": "in-progress",
     "fileSlug": "skullcap"
@@ -900,7 +964,9 @@ window.PLANTS_DATA = [
       "Mucous membrane strengthening",
       "Mucous membrane tonic",
       "Antacid",
-      "Weight reducing"
+      "Weight reducing",
+      "Anti-inflammatory (digestive/mucous membranes/skin)",
+      "Healing"
     ],
     "status": "in-progress",
     "fileSlug": "slippery-elm"
@@ -923,7 +989,11 @@ window.PLANTS_DATA = [
       "Vulnerary",
       "Nervine tonic",
       "Analgesic",
-      "Antifungal"
+      "Antifungal",
+      "Anti-inflammatory (external)",
+      "Antiviral (external)",
+      "Healing",
+      "Nerve tonic"
     ],
     "status": "in-progress",
     "fileSlug": "st-johns-wort"
@@ -939,7 +1009,8 @@ window.PLANTS_DATA = [
     ],
     "properties": [
       "Urinary antiseptic",
-      "Astringent"
+      "Astringent",
+      "Antiseptic (urinary)"
     ],
     "status": "in-progress",
     "fileSlug": "uva-ursi",
@@ -991,7 +1062,8 @@ window.PLANTS_DATA = [
     "properties": [
       "Blood purifying",
       "Choleretic",
-      "Laxative"
+      "Laxative",
+      "Blood purifier"
     ],
     "status": "in-progress",
     "fileSlug": "yellow-dock",
@@ -1011,7 +1083,8 @@ window.PLANTS_DATA = [
       "Menstruation regulating",
       "Uterine contracting",
       "Galactagogue",
-      "Anti-inflammatory (female reproductive organs)"
+      "Anti-inflammatory (female reproductive organs)",
+      "Anti-inflammatory (female reproductive)"
     ],
     "status": "in-progress",
     "fileSlug": "raspberry-leaf"
@@ -1034,7 +1107,12 @@ window.PLANTS_DATA = [
       "Antispasmodic (menstrual)",
       "Antirheumatic",
       "Anti-inflammatory (digestive)",
-      "Menstruation regulating"
+      "Menstruation regulating",
+      "Anti-inflammatory (female reproductive)",
+      "Anti-inflammatory (digestive/mucous membranes/skin)",
+      "Emmenagogue",
+      "Analgesic (pain relief)",
+      "Estrogen regulating"
     ],
     "status": "in-progress",
     "fileSlug": "wild-yam"
@@ -1055,7 +1133,8 @@ window.PLANTS_DATA = [
       "Progesterone effect",
       "Prolactin inhibiting",
       "Galactagogue",
-      "Estrogen regulating"
+      "Estrogen regulating",
+      "Emmenagogue"
     ],
     "status": "in-progress",
     "fileSlug": "vitex",
@@ -1078,7 +1157,8 @@ window.PLANTS_DATA = [
       "Nerve tonic",
       "Blood pressure regulating",
       "Blood pressure lowering",
-      "Antispasmodic"
+      "Antispasmodic",
+      "Antiarrhythmic"
     ],
     "status": "in-progress",
     "fileSlug": "motherwort"
@@ -1102,7 +1182,9 @@ window.PLANTS_DATA = [
       "Nerve tonic",
       "Antirheumatic",
       "Perspiration inhibiting",
-      "Estrogen regulating"
+      "Estrogen regulating",
+      "Anti-inflammatory (female reproductive)",
+      "Anhidrotic"
     ],
     "status": "in-progress",
     "fileSlug": "black-cohosh",
@@ -1158,7 +1240,11 @@ window.PLANTS_DATA = [
       "Blood pressure lowering",
       "Antispasmodic (menstrual)",
       "Menstruation regulating",
-      "Circulatory stimulant"
+      "Circulatory stimulant",
+      "Blood pressure regulating",
+      "Uterine relaxant",
+      "Uterine tonic",
+      "Emmenagogue"
     ],
     "status": "in-progress",
     "fileSlug": "cramp-bark"
@@ -1189,7 +1275,13 @@ window.PLANTS_DATA = [
       "Uterine tonic",
       "Menstruation regulating",
       "Nerve tonic",
-      "Antioxidant"
+      "Antioxidant",
+      "Antidepressant",
+      "Antirheumatic",
+      "Appetite stimulant",
+      "Bronchial spasmolytic",
+      "Emmenagogue",
+      "Estrogen regulating"
     ],
     "status": "in-progress",
     "fileSlug": "angelica",
@@ -1216,7 +1308,9 @@ window.PLANTS_DATA = [
       "Woman tonic",
       "Uterine tonic",
       "Heart tonic",
-      "Menstruation regulating"
+      "Menstruation regulating",
+      "Antiarrhythmic",
+      "Emmenagogue"
     ],
     "status": "in-progress",
     "fileSlug": "dong-quai"
@@ -1236,7 +1330,8 @@ window.PLANTS_DATA = [
       "Antispasmodic (intestinal, bladder)",
       "Anti-inflammatory (urinary)",
       "Male tonic",
-      "Prostate growth inhibiting"
+      "Prostate growth inhibiting",
+      "Anti-inflammatory (general)"
     ],
     "status": "in-progress",
     "fileSlug": "saw-palmetto"
@@ -1275,7 +1370,10 @@ window.PLANTS_DATA = [
       "Antirheumatic",
       "Antipruritic (anti-itching)",
       "Blood purifying",
-      "Male tonic"
+      "Male tonic",
+      "Anti-inflammatory (general)",
+      "Blood purifier",
+      "Antipruritic (external)"
     ],
     "status": "in-progress",
     "fileSlug": "sarsaparilla",
@@ -1302,7 +1400,9 @@ window.PLANTS_DATA = [
       "Antifungal",
       "Immunomodulating",
       "Interferon promoting",
-      "Tonic"
+      "Tonic",
+      "Metabolism raising",
+      "Interferon stimulating"
     ],
     "status": "in-progress",
     "fileSlug": "siberian-ginseng"
@@ -1339,7 +1439,8 @@ window.PLANTS_DATA = [
       "Astringent",
       "Hemostatic",
       "Kidney tonic",
-      "Choleretic"
+      "Choleretic",
+      "Anti-inflammatory (digestive/mucous membranes/skin)"
     ],
     "status": "in-progress",
     "fileSlug": "turkey-rhubarb",
@@ -1396,7 +1497,10 @@ window.PLANTS_DATA = [
       "Antispasmodic (intestinal, respiratory)",
       "Expectorant",
       "Antifungal",
-      "Galactagogue"
+      "Galactagogue",
+      "Antimicrobial",
+      "Appetite stimulant",
+      "Mucolytic"
     ],
     "status": "in-progress",
     "fileSlug": "fennel"
@@ -1494,7 +1598,8 @@ window.PLANTS_DATA = [
       "Nootropic",
       "Uterine contractor",
       "Galactagogue",
-      "Tonic"
+      "Tonic",
+      "Uterine contracting"
     ],
     "status": "in-progress",
     "fileSlug": "schisandra"
@@ -1521,7 +1626,9 @@ window.PLANTS_DATA = [
       "Immunomodulating",
       "Heart tonic",
       "Kidney tonic",
-      "Antioxidant"
+      "Antioxidant",
+      "Blood pressure lowering",
+      "Interferon stimulating"
     ],
     "status": "in-progress",
     "fileSlug": "astragalus"
@@ -1559,7 +1666,8 @@ window.PLANTS_DATA = [
       "Antiviral",
       "Blood purifying",
       "Lymphatic stimulant",
-      "Parasite inhibiting"
+      "Parasite inhibiting",
+      "Immunomodulating"
     ],
     "status": "in-progress",
     "fileSlug": "pau-darco",
@@ -1619,7 +1727,12 @@ window.PLANTS_DATA = [
       "Mucous membrane tonic",
       "Mucous reducing (lower respiratory)",
       "Nerve tonic",
-      "Tonic"
+      "Tonic",
+      "Aldose reductase inhibitor",
+      "Vasodilator",
+      "Bronchial spasmolytic",
+      "Mucostatic (lower respiratory)",
+      "Mucostatic (upper respiratory)"
     ],
     "status": "in-progress",
     "fileSlug": "reishi"
@@ -1645,7 +1758,11 @@ window.PLANTS_DATA = [
       "Circulatory stimulant",
       "Antifungal",
       "Antispasmodic",
-      "Diaphoretic"
+      "Diaphoretic",
+      "Blood pressure regulating",
+      "Cholagogue",
+      "Healing",
+      "Emmenagogue"
     ],
     "status": "in-progress",
     "fileSlug": "yarrow"
@@ -1673,7 +1790,12 @@ window.PLANTS_DATA = [
       "Blood pressure lowering",
       "Cholesterol lowering",
       "Fibrin counteracting",
-      "Immunomodulating"
+      "Immunomodulating",
+      "Anti-inflammatory (cardiovascular)",
+      "Anti-inflammatory (external)",
+      "Blood pressure regulating",
+      "Fibrinolytic",
+      "Antifungal"
     ],
     "status": "in-progress",
     "fileSlug": "garlic",
@@ -1699,7 +1821,13 @@ window.PLANTS_DATA = [
       "Vulnerary",
       "Immunomodulating",
       "Interferon promoting",
-      "Laxative"
+      "Laxative",
+      "Anti-inflammatory (general)",
+      "Anti-inflammatory (digestive/mucous membranes/skin)",
+      "Anti-inflammatory (external)",
+      "Antiviral (external)",
+      "Healing",
+      "Interferon stimulating"
     ],
     "status": "in-progress",
     "fileSlug": "aloe-vera"
@@ -1722,7 +1850,9 @@ window.PLANTS_DATA = [
       "Anti-inflammatory (urinary)",
       "Anti-ulcer",
       "Emollient",
-      "Vulnerary"
+      "Vulnerary",
+      "Anti-inflammatory (digestive/mucous membranes/skin)",
+      "Healing"
     ],
     "status": "in-progress",
     "fileSlug": "marshmallow-root"
@@ -1741,7 +1871,9 @@ window.PLANTS_DATA = [
       "Analgesic (topical)",
       "Anti-inflammatory (topical)",
       "Antimicrobial (topical)",
-      "Vulnerary (topical)"
+      "Vulnerary (topical)",
+      "Anti-inflammatory (general)",
+      "Antifungal"
     ],
     "status": "in-progress",
     "fileSlug": "arnica"
@@ -1768,7 +1900,14 @@ window.PLANTS_DATA = [
       "Blood purifying",
       "Vulnerary",
       "Lymphatic stimulant",
-      "Antifungal"
+      "Antifungal",
+      "Anti-inflammatory (digestive/mucous membranes/skin)",
+      "Anti-inflammatory (external)",
+      "Antiviral (external)",
+      "Blood purifier",
+      "Hemostatic",
+      "Cholagogue",
+      "Healing"
     ],
     "status": "in-progress",
     "fileSlug": "calendula"
@@ -1798,7 +1937,13 @@ window.PLANTS_DATA = [
       "Antispasmodic",
       "Sedative",
       "Antifungal",
-      "Immunomodulating"
+      "Immunomodulating",
+      "Anti-inflammatory (digestive/mucous membranes/skin)",
+      "Anti-inflammatory (external)",
+      "Cholagogue",
+      "Healing",
+      "Hypnotic",
+      "Analgesic (pain relief)"
     ],
     "status": "in-progress",
     "fileSlug": "chamomile-german",
@@ -1834,7 +1979,11 @@ window.PLANTS_DATA = [
       "Fibrin counteracting",
       "Hepatoprotective",
       "Analgesic",
-      "Antifungal"
+      "Antifungal",
+      "Anti-inflammatory (cardiovascular)",
+      "Blood purifier",
+      "Fibrinolytic",
+      "Cholagogue"
     ],
     "status": "in-progress",
     "fileSlug": "turmeric"
@@ -1870,7 +2019,8 @@ window.PLANTS_DATA = [
       "Astringent",
       "Hemostatic",
       "Venotonic",
-      "Analgesic"
+      "Analgesic",
+      "Anti-inflammatory (digestive/mucous membranes/skin)"
     ],
     "status": "in-progress",
     "fileSlug": "witch-hazel"
@@ -1912,7 +2062,8 @@ window.PLANTS_DATA = [
       "Sedative",
       "Antispasmodic",
       "Hypnotic",
-      "Diaphoretic"
+      "Diaphoretic",
+      "Antiviral (external)"
     ],
     "status": "in-progress",
     "fileSlug": "lemon-balm"
@@ -2011,7 +2162,9 @@ window.PLANTS_DATA = [
       "Hepatoprotective",
       "Nootropic",
       "Analgesic",
-      "Antifungal"
+      "Antifungal",
+      "Antimicrobial",
+      "Antispasmodic"
     ],
     "status": "in-progress",
     "fileSlug": "rosemary"
@@ -2043,7 +2196,19 @@ window.PLANTS_DATA = [
       "Antispasmodic",
       "Galactagogue inhibiting",
       "Estrogen regulating",
-      "Antifungal"
+      "Antifungal",
+      "Antiarrhythmic",
+      "Connective tissue strengthening",
+      "Vasodilator",
+      "Blood pressure regulating",
+      "Fibrinolytic",
+      "Healing",
+      "Cardioprotective",
+      "Heart tonic",
+      "Galactofuge",
+      "Kidney tonic",
+      "Mucostatic (lower respiratory)",
+      "Anhidrotic"
     ],
     "status": "in-progress",
     "fileSlug": "sage"
@@ -2080,7 +2245,9 @@ window.PLANTS_DATA = [
       "Bitter tonic",
       "Choleretic",
       "Hepatoprotective",
-      "Liver cell regenerating"
+      "Liver cell regenerating",
+      "Cholagogue",
+      "Hepatic cell regenerating"
     ],
     "status": "in-progress",
     "fileSlug": "milk-thistle"
@@ -2108,7 +2275,9 @@ window.PLANTS_DATA = [
       "Bitter tonic",
       "Bronchial antispasmodic",
       "Expectorant",
-      "Antifungal"
+      "Antifungal",
+      "Bronchial spasmolytic",
+      "Mucolytic"
     ],
     "status": "in-progress",
     "fileSlug": "thyme"
@@ -2129,7 +2298,8 @@ window.PLANTS_DATA = [
       "Hypnotic",
       "Blood pressure regulating",
       "Blood pressure lowering",
-      "Analgesic"
+      "Analgesic",
+      "Nerve tonic"
     ],
     "status": "in-progress",
     "fileSlug": "valerian-root"
@@ -2167,7 +2337,9 @@ window.PLANTS_DATA = [
     "properties": [
       "Woman tonic",
       "Uterine tonic",
-      "Menstruation regulating"
+      "Menstruation regulating",
+      "Emmenagogue",
+      "Estrogen regulating"
     ],
     "status": "in-progress",
     "fileSlug": "false-unicorn-root"
@@ -2187,7 +2359,9 @@ window.PLANTS_DATA = [
       "Woman tonic",
       "Menstruation regulating",
       "Uterine tonic",
-      "Estrogen regulating"
+      "Estrogen regulating",
+      "Hemostatic",
+      "Emmenagogue"
     ],
     "status": "in-progress",
     "fileSlug": "ladys-mantle"
@@ -2206,7 +2380,8 @@ window.PLANTS_DATA = [
       "Uterine relaxant",
       "Uterine contractor",
       "Galactagogue",
-      "Uterine tonic"
+      "Uterine tonic",
+      "Uterine contracting"
     ],
     "status": "in-progress",
     "fileSlug": "partridgeberry"
@@ -2224,7 +2399,6 @@ window.PLANTS_DATA = [
     "properties": [
       "Astringent",
       "Hemostatic",
-      "Woman tonic",
       "Estrogen regulating"
     ],
     "status": "in-progress",
@@ -2266,7 +2440,10 @@ window.PLANTS_DATA = [
       "Hepatoprotective",
       "Weight reducing",
       "Blood purifying",
-      "Diuretic"
+      "Diuretic",
+      "Blood purifier",
+      "Cholagogue",
+      "Hepatic cell regenerating"
     ],
     "status": "in-progress",
     "fileSlug": "artichoke"
@@ -2282,7 +2459,8 @@ window.PLANTS_DATA = [
     ],
     "properties": [
       "Bitter tonic",
-      "Parasite inhibiting"
+      "Parasite inhibiting",
+      "Antiparasitic"
     ],
     "status": "in-progress",
     "fileSlug": "wormwood"
@@ -2298,7 +2476,8 @@ window.PLANTS_DATA = [
     ],
     "properties": [
       "Bitter tonic",
-      "Choleretic"
+      "Choleretic",
+      "Cholagogue"
     ],
     "status": "in-progress",
     "fileSlug": "mugwort"
@@ -2332,7 +2511,9 @@ window.PLANTS_DATA = [
       "Bitter tonic",
       "Expectorant",
       "Antispasmodic",
-      "Choleretic"
+      "Choleretic",
+      "Cholagogue",
+      "Mucolytic"
     ],
     "status": "in-progress",
     "fileSlug": "horehound"
@@ -2353,7 +2534,11 @@ window.PLANTS_DATA = [
       "Anti-ulcer",
       "Astringent",
       "Urinary antiseptic",
-      "Acid-neutralizing"
+      "Acid-neutralizing",
+      "Anti-inflammatory (digestive/mucous membranes/skin)",
+      "Antiseptic (urinary)",
+      "Emollient",
+      "Antacid"
     ],
     "status": "in-progress",
     "fileSlug": "meadowsweet"
@@ -2375,7 +2560,9 @@ window.PLANTS_DATA = [
       "Cholesterol lowering",
       "Emollient",
       "Galactagogue",
-      "Weight reducing"
+      "Weight reducing",
+      "Anti-inflammatory (general)",
+      "Appetite stimulant"
     ],
     "status": "in-progress",
     "fileSlug": "fenugreek"
@@ -2399,7 +2586,14 @@ window.PLANTS_DATA = [
       "Bitter tonic",
       "Choleretic",
       "Hepatoprotective",
-      "Immunomodulating"
+      "Immunomodulating",
+      "Anti-inflammatory (liver)",
+      "Anticoagulant",
+      "Antioxidant",
+      "Blood purifier",
+      "Blood sugar regulating",
+      "Cholagogue",
+      "Hepatic cell regenerating"
     ],
     "status": "in-progress",
     "fileSlug": "andrographis"
@@ -2417,10 +2611,18 @@ window.PLANTS_DATA = [
     ],
     "properties": [
       "Adaptogens",
-      "Female tonic",
+      "Woman tonic",
       "Nervine tonic",
       "Sedative",
-      "Uterine tonic"
+      "Uterine tonic",
+      "Aphrodisiac",
+      "Antioxidant",
+      "Astringent",
+      "Blood strengthening",
+      "Antispasmodic",
+      "Galactagogue",
+      "Emmenagogue",
+      "Diuretic"
     ],
     "status": "in-progress",
     "fileSlug": "ashwagandha"
@@ -2440,7 +2642,16 @@ window.PLANTS_DATA = [
       "Brain tonic",
       "Nervine tonic",
       "Memory enhancing",
-      "Antioxidant"
+      "Antioxidant",
+      "Aldose reductase inhibitor",
+      "Anticancer preventive",
+      "Antidepressant",
+      "Anti-inflammatory (general)",
+      "Anti-inflammatory (brain)",
+      "Sedative",
+      "Anticonvulsant (epilepsy)",
+      "Nerve tonic",
+      "Nootropic"
     ],
     "status": "in-progress",
     "fileSlug": "bacopa"
@@ -2460,7 +2671,9 @@ window.PLANTS_DATA = [
       "Adaptogens",
       "Immunomodulating",
       "Lung tonic",
-      "Tonic"
+      "Tonic",
+      "Blood sugar regulating",
+      "Blood strengthening"
     ],
     "status": "in-progress",
     "fileSlug": "codonopsis"
@@ -2484,7 +2697,12 @@ window.PLANTS_DATA = [
       "Antioxidant",
       "Cardioprotective",
       "Immunomodulating",
-      "Nervine tonic"
+      "Nervine tonic",
+      "Aphrodisiac",
+      "Metabolism raising",
+      "Woman tonic",
+      "Nerve tonic",
+      "Nootropic"
     ],
     "status": "in-progress",
     "fileSlug": "rhodiola"
@@ -2503,7 +2721,9 @@ window.PLANTS_DATA = [
       "Nervine tonic",
       "Sedative",
       "Tonic",
-      "Cholesterol lowering"
+      "Cholesterol lowering",
+      "Antidepressant",
+      "Hypnotic"
     ],
     "status": "in-progress",
     "fileSlug": "oat-straw"
@@ -2523,7 +2743,10 @@ window.PLANTS_DATA = [
       "Antimicrobial",
       "Antioxidant",
       "Antiviral (internal)",
-      "Immunomodulating"
+      "Immunomodulating",
+      "Anticancer preventive",
+      "Blood purifier",
+      "Antifungal"
     ],
     "status": "in-progress",
     "fileSlug": "cats-claw"
@@ -2543,7 +2766,13 @@ window.PLANTS_DATA = [
       "Blood pressure regulating",
       "Cardioprotective",
       "Heart tonic",
-      "Vasodilator"
+      "Vasodilator",
+      "Astringent",
+      "Connective tissue strengthening",
+      "Blood pressure raising",
+      "Blood pressure lowering",
+      "Cholesterol lowering",
+      "Circulatory stimulant"
     ],
     "status": "in-progress",
     "fileSlug": "hawthorn"
@@ -2563,7 +2792,9 @@ window.PLANTS_DATA = [
       "Diaphoretic",
       "Nervine tonic",
       "Sedative",
-      "Vasodilator"
+      "Vasodilator",
+      "Antiarrhythmic",
+      "Circulatory stimulant"
     ],
     "status": "in-progress",
     "fileSlug": "linden"
@@ -2581,7 +2812,8 @@ window.PLANTS_DATA = [
     "properties": [
       "Antithyroid",
       "Heart sedative",
-      "Thyroid regulating"
+      "Thyroid regulating",
+      "Vasodilator"
     ],
     "status": "in-progress",
     "fileSlug": "bugleweed"
@@ -2598,7 +2830,10 @@ window.PLANTS_DATA = [
     "properties": [
       "Anti-inflammatory (circulatory)",
       "Vasoconstrictor",
-      "Vein tonic"
+      "Vein tonic",
+      "Anti-inflammatory (cardiovascular)",
+      "Laxative",
+      "Venotonic"
     ],
     "status": "in-progress",
     "fileSlug": "butchers-broom"
@@ -2618,7 +2853,9 @@ window.PLANTS_DATA = [
       "Anti-inflammatory (general)",
       "Antirheumatic",
       "Antipyretic",
-      "Astringent"
+      "Astringent",
+      "Anti-inflammatory (musculoskeletal)",
+      "Anti-inflammatory (female reproductive)"
     ],
     "status": "in-progress",
     "fileSlug": "white-willow"
@@ -2638,7 +2875,10 @@ window.PLANTS_DATA = [
       "Antilithic",
       "Antirheumatic",
       "Carminative",
-      "Diuretic"
+      "Diuretic",
+      "Anti-inflammatory (general)",
+      "Anti-inflammatory (musculoskeletal)",
+      "Blood pressure regulating"
     ],
     "status": "in-progress",
     "fileSlug": "celery-seed"
@@ -2656,7 +2896,10 @@ window.PLANTS_DATA = [
       "Antimicrobial",
       "Demulcent",
       "Diuretic",
-      "Urinary antiseptic"
+      "Urinary antiseptic",
+      "Anti-inflammatory (urinary)",
+      "Antilithic",
+      "Emollient"
     ],
     "status": "in-progress",
     "fileSlug": "couch-grass"
@@ -2675,7 +2918,11 @@ window.PLANTS_DATA = [
       "Anti-inflammatory (liver)",
       "Choleretic",
       "Hepatoprotective",
-      "Immunomodulating"
+      "Immunomodulating",
+      "Anti-inflammatory (general)",
+      "Anti-ulcer",
+      "Expectorant",
+      "Kidney tonic"
     ],
     "status": "in-progress",
     "fileSlug": "bupleurum"
@@ -2732,7 +2979,8 @@ window.PLANTS_DATA = [
       "Astringent",
       "Bronchial antispasmodic",
       "Expectorant",
-      "Sedative"
+      "Sedative",
+      "Bronchial spasmolytic"
     ],
     "status": "in-progress",
     "fileSlug": "wild-cherry"
@@ -2751,7 +2999,9 @@ window.PLANTS_DATA = [
       "Anti-inflammatory (general)",
       "Anti-inflammatory (musculoskeletal)",
       "Anti-inflammatory (digestive)",
-      "Antirheumatic"
+      "Antirheumatic",
+      "Anti-inflammatory (cardiovascular)",
+      "Analgesic (pain relief)"
     ],
     "status": "in-progress",
     "fileSlug": "boswellia"
@@ -2772,7 +3022,8 @@ window.PLANTS_DATA = [
       "Antiseptic",
       "Astringent",
       "Anti-inflammatory (general)",
-      "Vulnerary"
+      "Vulnerary",
+      "Healing"
     ],
     "status": "in-progress",
     "fileSlug": "myrrh"
@@ -2791,7 +3042,12 @@ window.PLANTS_DATA = [
       "Analgesic",
       "Anti-inflammatory (musculoskeletal)",
       "Antirheumatic",
-      "Bitter tonic"
+      "Bitter tonic",
+      "Anti-inflammatory (general)",
+      "Anti-inflammatory (cardiovascular)",
+      "Antiarrhythmic",
+      "Vasodilator",
+      "Diuretic"
     ],
     "status": "in-progress",
     "fileSlug": "devils-claw"
@@ -2808,7 +3064,8 @@ window.PLANTS_DATA = [
     "properties": [
       "Anti-inflammatory (general)",
       "Antirheumatic",
-      "Diaphoretic"
+      "Diaphoretic",
+      "Anti-inflammatory (musculoskeletal)"
     ],
     "status": "in-progress",
     "fileSlug": "guaiacum"
@@ -2828,7 +3085,11 @@ window.PLANTS_DATA = [
       "Anti-inflammatory (general)",
       "Antispasmodic",
       "Blood building",
-      "Female tonic"
+      "Woman tonic",
+      "Anti-inflammatory (female reproductive)",
+      "Anticonvulsant (epilepsy)",
+      "Emmenagogue",
+      "Estrogen regulating"
     ],
     "status": "in-progress",
     "fileSlug": "white-peony"
@@ -2846,7 +3107,8 @@ window.PLANTS_DATA = [
     "properties": [
       "Anti-inflammatory (general)",
       "Blood purifying",
-      "Female tonic"
+      "Blood pressure regulating",
+      "Blood pressure lowering"
     ],
     "status": "in-progress",
     "fileSlug": "tree-peony"
@@ -2867,7 +3129,12 @@ window.PLANTS_DATA = [
       "Antioxidant",
       "Antiviral (internal)",
       "Immunomodulating",
-      "Vulnerary"
+      "Vulnerary",
+      "Anti-inflammatory (external)",
+      "Antiviral (external)",
+      "Healing",
+      "Analgesic (pain relief)",
+      "Antifungal"
     ],
     "status": "in-progress",
     "fileSlug": "propolis"
@@ -2886,7 +3153,27 @@ window.PLANTS_DATA = [
       "Anti-inflammatory (general)",
       "Antioxidant",
       "Circulatory stimulant",
-      "Vein tonic"
+      "Vein tonic",
+      "Aldose reductase inhibitor",
+      "Antiallergic",
+      "Anticancer preventive",
+      "Anti-inflammatory (brain)",
+      "Anti-inflammatory (respiratory)",
+      "Anti-inflammatory (digestive/mucous membranes/skin)",
+      "Anti-inflammatory (external)",
+      "Antiviral (external)",
+      "Astringent",
+      "Connective tissue strengthening",
+      "Vasodilator",
+      "Blood pressure regulating",
+      "Bronchial spasmolytic",
+      "Fibrinolytic",
+      "Healing",
+      "Cholesterol lowering",
+      "Antispasmodic",
+      "Mucolytic",
+      "Mucous membrane strengthening",
+      "Venotonic"
     ],
     "status": "in-progress",
     "fileSlug": "pine-bark"
@@ -2904,7 +3191,9 @@ window.PLANTS_DATA = [
       "Antispasmodic",
       "Bronchial antispasmodic",
       "Expectorant",
-      "Mucous reducing (lower respiratory)"
+      "Mucous reducing (lower respiratory)",
+      "Bronchial spasmolytic",
+      "Mucolytic"
     ],
     "status": "in-progress",
     "fileSlug": "grindelia"
@@ -2921,7 +3210,9 @@ window.PLANTS_DATA = [
     "properties": [
       "Antispasmodic",
       "Bronchial antispasmodic",
-      "Expectorant"
+      "Expectorant",
+      "Bronchial spasmolytic",
+      "Antiparasitic"
     ],
     "status": "in-progress",
     "fileSlug": "euphorbia"
@@ -2937,7 +3228,10 @@ window.PLANTS_DATA = [
     ],
     "properties": [
       "Anti-inflammatory (general)",
-      "Astringent"
+      "Astringent",
+      "Mucous membrane strengthening",
+      "Mucous membrane tonic",
+      "Mucostatic (upper respiratory)"
     ],
     "status": "in-progress",
     "fileSlug": "eyebright"
@@ -2956,7 +3250,8 @@ window.PLANTS_DATA = [
       "Antimicrobial",
       "Antiviral (topical)",
       "Diuretic",
-      "Expectorant"
+      "Expectorant",
+      "Antiviral (external)"
     ],
     "status": "in-progress",
     "fileSlug": "thuja"
@@ -2994,7 +3289,10 @@ window.PLANTS_DATA = [
       "Blood purifying",
       "Choleretic",
       "Laxative",
-      "Lymphatic stimulant"
+      "Lymphatic stimulant",
+      "Blood purifier",
+      "Diuretic",
+      "Weight reducing"
     ],
     "status": "in-progress",
     "fileSlug": "blue-flag"
@@ -3010,7 +3308,9 @@ window.PLANTS_DATA = [
     ],
     "properties": [
       "Urinary antiseptic",
-      "Antioxidant"
+      "Antioxidant",
+      "Anti-inflammatory (urinary)",
+      "Antiseptic (urinary)"
     ],
     "status": "in-progress",
     "fileSlug": "cranberry"
@@ -3029,7 +3329,15 @@ window.PLANTS_DATA = [
       "Anti-inflammatory (urinary)",
       "Antimicrobial",
       "Astringent",
-      "Diuretic"
+      "Diuretic",
+      "Anti-inflammatory (general)",
+      "Anti-inflammatory (respiratory)",
+      "Antiseptic (urinary)",
+      "Blood purifier",
+      "Kidney tonic",
+      "Mucous membrane strengthening",
+      "Mucostatic (upper respiratory)",
+      "Antifungal"
     ],
     "status": "in-progress",
     "fileSlug": "goldenrod"
@@ -3046,7 +3354,9 @@ window.PLANTS_DATA = [
     "properties": [
       "Astringent",
       "Hemostatic",
-      "Uterine contractor"
+      "Uterine contractor",
+      "Antiseptic (urinary)",
+      "Blood pressure regulating"
     ],
     "status": "in-progress",
     "fileSlug": "shepherds-purse"
@@ -3063,7 +3373,8 @@ window.PLANTS_DATA = [
     "properties": [
       "Anti-inflammatory (urinary)",
       "Antilithic",
-      "Diuretic"
+      "Diuretic",
+      "Bladder tonic"
     ],
     "status": "in-progress",
     "fileSlug": "crataeva"
@@ -3081,8 +3392,10 @@ window.PLANTS_DATA = [
     "properties": [
       "Adrenal tonic",
       "Blood building",
-      "Female tonic",
-      "Kidney tonic"
+      "Kidney tonic",
+      "Adaptogen",
+      "Anti-inflammatory (musculoskeletal)",
+      "Interferon stimulating"
     ],
     "status": "in-progress",
     "fileSlug": "rehmannia"
@@ -3099,7 +3412,10 @@ window.PLANTS_DATA = [
     ],
     "properties": [
       "Anti-inflammatory (urinary)",
-      "Diuretic"
+      "Diuretic",
+      "Anti-inflammatory (musculoskeletal)",
+      "Antirheumatic",
+      "Antilithic"
     ],
     "status": "in-progress",
     "fileSlug": "birch"
@@ -3117,7 +3433,11 @@ window.PLANTS_DATA = [
     "properties": [
       "Anti-inflammatory (topical)",
       "Blood purifying",
-      "Expectorant"
+      "Expectorant",
+      "Anticancer preventive",
+      "Anti-inflammatory (musculoskeletal)",
+      "Blood purifier",
+      "Laxative"
     ],
     "status": "in-progress",
     "fileSlug": "heartsease"
@@ -3135,7 +3455,8 @@ window.PLANTS_DATA = [
     "properties": [
       "Anti-inflammatory (respiratory)",
       "Expectorant",
-      "Lymphatic stimulant"
+      "Lymphatic stimulant",
+      "Blood purifier"
     ],
     "status": "in-progress",
     "fileSlug": "sweet-violet"
@@ -3154,7 +3475,9 @@ window.PLANTS_DATA = [
       "Analgesic",
       "Anti-inflammatory (general)",
       "Antiplatelet",
-      "Vasodilator"
+      "Vasodilator",
+      "Antiallergic",
+      "Bitter tonic"
     ],
     "status": "in-progress",
     "fileSlug": "feverfew"
@@ -3173,7 +3496,12 @@ window.PLANTS_DATA = [
       "Antispasmodic",
       "Bitter tonic",
       "Nervine tonic",
-      "Sedative"
+      "Sedative",
+      "Antidepressant",
+      "Astringent",
+      "Choleretic",
+      "Nerve tonic",
+      "Diaphoretic"
     ],
     "status": "in-progress",
     "fileSlug": "vervain"
@@ -3191,7 +3519,9 @@ window.PLANTS_DATA = [
     "properties": [
       "Nervine tonic",
       "Sedative",
-      "Tonic"
+      "Tonic",
+      "Blood pressure regulating",
+      "Blood pressure lowering"
     ],
     "status": "in-progress",
     "fileSlug": "jujube"
@@ -3209,7 +3539,12 @@ window.PLANTS_DATA = [
     "properties": [
       "Bronchial antispasmodic",
       "Vasodilator",
-      "Blood pressure lowering"
+      "Blood pressure lowering",
+      "Appetite stimulant",
+      "Bitter tonic",
+      "Blood pressure regulating",
+      "Bronchial spasmolytic",
+      "Heart tonic"
     ],
     "status": "in-progress",
     "fileSlug": "coleus"
@@ -3227,7 +3562,25 @@ window.PLANTS_DATA = [
     "properties": [
       "Adaptogens",
       "Antioxidant",
-      "Immunomodulating"
+      "Immunomodulating",
+      "Aldose reductase inhibitor",
+      "Antiallergic",
+      "Antibacterial",
+      "Anticancer preventive",
+      "Anti-inflammatory (general)",
+      "Anti-inflammatory (liver)",
+      "Anti-inflammatory (respiratory)",
+      "Anti-inflammatory (digestive/mucous membranes/skin)",
+      "Antimicrobial",
+      "Antiviral (internal)",
+      "Blood purifier",
+      "Blood sugar regulating",
+      "Blood pressure regulating",
+      "Interferon stimulating",
+      "Cholesterol lowering",
+      "Hepatoprotective",
+      "Antiparasitic",
+      "Antifungal"
     ],
     "status": "in-progress",
     "fileSlug": "chaga"
@@ -3246,7 +3599,18 @@ window.PLANTS_DATA = [
     "properties": [
       "Brain tonic",
       "Immunomodulating",
-      "Nervine tonic"
+      "Nervine tonic",
+      "Adaptogen",
+      "Aldose reductase inhibitor",
+      "Antibacterial",
+      "Anticancer preventive",
+      "Antidepressant",
+      "Anti-inflammatory (general)",
+      "Anti-inflammatory (brain)",
+      "Antioxidant",
+      "Blood sugar regulating",
+      "Nerve tonic",
+      "Nootropic"
     ],
     "status": "in-progress",
     "fileSlug": "lions-mane"
@@ -3266,7 +3630,17 @@ window.PLANTS_DATA = [
       "Adaptogens",
       "Immunomodulating",
       "Lung tonic",
-      "Tonic"
+      "Tonic",
+      "Aphrodisiac",
+      "Aldose reductase inhibitor",
+      "Antibacterial",
+      "Anticancer preventive",
+      "Anti-inflammatory (general)",
+      "Anti-inflammatory (musculoskeletal)",
+      "Blood sugar regulating",
+      "Antispasmodic",
+      "Analgesic (pain relief)",
+      "Weight reducing"
     ],
     "status": "in-progress",
     "fileSlug": "cordyceps"
@@ -3282,7 +3656,27 @@ window.PLANTS_DATA = [
     ],
     "properties": [
       "Antioxidant",
-      "Immunomodulating"
+      "Immunomodulating",
+      "Aldose reductase inhibitor",
+      "Antibacterial",
+      "Anticancer preventive",
+      "Antidepressant",
+      "Anti-inflammatory (general)",
+      "Anti-inflammatory (musculoskeletal)",
+      "Anti-inflammatory (brain)",
+      "Anti-inflammatory (cardiovascular)",
+      "Anti-inflammatory (digestive/mucous membranes/skin)",
+      "Anti-inflammatory (external)",
+      "Antimicrobial",
+      "Sedative",
+      "Connective tissue strengthening",
+      "Blood pressure regulating",
+      "Blood pressure lowering",
+      "Heart tonic",
+      "Hypnotic",
+      "Nerve tonic",
+      "Antiparasitic",
+      "Antifungal"
     ],
     "status": "in-progress",
     "fileSlug": "golden-oyster"
@@ -3300,7 +3694,11 @@ window.PLANTS_DATA = [
     "properties": [
       "Antioxidant",
       "Cholesterol lowering",
-      "Weight reducing"
+      "Weight reducing",
+      "Anticancer preventive",
+      "Anti-inflammatory (general)",
+      "Anti-inflammatory (brain)",
+      "Metabolism raising"
     ],
     "status": "in-progress",
     "fileSlug": "green-tea"
@@ -3317,7 +3715,8 @@ window.PLANTS_DATA = [
     "properties": [
       "Metabolic stimulant",
       "Thyroid stimulating",
-      "Weight reducing"
+      "Weight reducing",
+      "Emollient"
     ],
     "status": "in-progress",
     "fileSlug": "bladderwrack"
@@ -3352,7 +3751,10 @@ window.PLANTS_DATA = [
     ],
     "properties": [
       "Blood purifying",
-      "Diaphoretic"
+      "Diaphoretic",
+      "Anti-inflammatory (musculoskeletal)",
+      "Blood purifier",
+      "Immunosuppressive"
     ],
     "status": "in-progress",
     "fileSlug": "indian-sarsaparilla"
@@ -3369,7 +3771,9 @@ window.PLANTS_DATA = [
     "properties": [
       "Analgesic",
       "Anti-inflammatory (general)",
-      "Antipyretic"
+      "Antipyretic",
+      "Anti-inflammatory (musculoskeletal)",
+      "Anti-inflammatory (female reproductive)"
     ],
     "status": "in-progress",
     "fileSlug": "purple-willow"
@@ -3388,7 +3792,18 @@ window.PLANTS_DATA = [
       "Antioxidant",
       "Astringent",
       "Circulatory stimulant",
-      "Vein tonic"
+      "Vein tonic",
+      "Aldose reductase inhibitor",
+      "Anticancer preventive",
+      "Anti-inflammatory (general)",
+      "Anti-inflammatory (brain)",
+      "Antiseptic (urinary)",
+      "Vasodilator",
+      "Cholesterol lowering",
+      "Galactofuge",
+      "Nootropic",
+      "Venotonic",
+      "Weight reducing"
     ],
     "status": "in-progress",
     "fileSlug": "bilberry"
@@ -3407,7 +3822,8 @@ window.PLANTS_DATA = [
       "Antidepressant",
       "Antioxidant",
       "Cardioprotective",
-      "Vasodilator"
+      "Vasodilator",
+      "Anticancer preventive"
     ],
     "status": "in-progress",
     "fileSlug": "cacao"
