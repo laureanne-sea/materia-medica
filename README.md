@@ -9,26 +9,22 @@ A collection of medicinal plants with detailed information on botanical names, p
 ## 📁 File Structure
 
 ### Essential Files (Don't Delete!)
-- **plants-data.js** - All 114 plants database (edit this to add/update plants)
+- **plants-data.js** - All 169 plants database (edit this to add/update plants)
 - **plants-renderer.js** - Renders plant cards dynamically
 - **navigation.js** - Navigation menu system
+- **search-filter.js** - Search and filter functionality
 - **styles.css** - All styling
-- **index.html** - Main page (all plants)
-- **[system]-system.html** - 9 system pages (nervous, immune, digestive, etc.)
-- **plants/*.html** - 114 individual plant detail pages
+- **index.html** - Main page (all plants with search/filter)
+- **[system]-system.html** - 10 system pages (nervous, immune, digestive, endocrine, etc.)
+- **plants/*.html** - 169 individual plant detail pages
 
 ### Documentation Files
 - **README.md** (this file) - Quick start guide
-- **OPTIMIZATION-COMPLETE.md** - Detailed optimization documentation
-- **OPTIMIZATION-SUMMARY.md** - Original optimization plan
 - **NAVIGATION-README.md** - Navigation system documentation
-
-### Backup Files (Can Delete Later)
-- **index-backup.html** - Original index.html before optimization (keep for safety)
 
 ### Other Files
 - **favicon.svg** - Site icon
-- **clause.md** - Unknown purpose (can probably delete)
+- **properties.pdf** - Reference document for plant properties
 
 ## 🚀 Quick Start
 
@@ -65,27 +61,25 @@ Use these exact IDs in the `systems` array:
 - `respiratory` - Respiratory System
 - `urinary` - Urinary System
 - `cardiovascular` - Cardiovascular System
+- `endocrine` - Endocrine System
+- `skin` - Skin System
 - `woman-reproductive` - Woman Reproductive System
 - `male-reproductive` - Male Reproductive System
-- `hormonal` - Hormonal System
 
 ## 📊 Current Status
 
-- **Total Plants:** 114
+- **Total Plants:** 169
 - **Completed Plants:** 1 (Valerian)
-- **In Progress:** 113
-- **Systems:** 9
+- **In Progress:** 168
+- **Systems:** 10
 
-### Plant Distribution by System
-- Cardiovascular: 23 plants
-- Digestive: 43 plants
-- Hormonal: 5 plants
-- Immune: 21 plants
-- Male Reproductive: 10 plants
-- Nervous: 20 plants
-- Respiratory: 23 plants
-- Urinary: 15 plants
-- Woman Reproductive: 20 plants
+### Features
+- ✅ Search by plant name (English, Danish, French, Botanical)
+- ✅ Filter by medicinal properties (multi-select with AND logic)
+- ✅ 10 body system categories
+- ✅ Botanical family information for most plants
+- ✅ Dynamic rendering from single data source
+- ✅ Fully responsive design
 
 ## 🎯 Common Tasks
 
@@ -123,17 +117,17 @@ Edit `styles.css`
 
 ## 📚 Next Steps
 
-1. ✅ Clean up (you are here!)
-2. Fill in plant detail pages with your knowledge
-3. Add photos to plant pages
-4. Consider adding search functionality
-5. Add plant statistics dashboard
+1. ✅ Optimization complete
+2. ✅ Search and filter functionality added
+3. ✅ 169 plants with properties and families
+4. Fill in plant detail pages with your knowledge
+5. Add photos/illustrations to plant pages
+6. Continue expanding the plant database
 
 ## ❓ Questions?
 
-Check the detailed documentation:
-- **OPTIMIZATION-COMPLETE.md** - Complete guide to the optimization
-- **NAVIGATION-README.md** - How navigation works
+Check the documentation:
+- **NAVIGATION-README.md** - How the navigation system works
 
 ## 🎉 Benefits of Current System
 
@@ -146,5 +140,6 @@ Check the detailed documentation:
 ---
 
 **Last Updated:** October 31, 2024
-**Total Plants:** 114
+**Total Plants:** 169
+**Systems:** 10 (Nervous, Immune, Digestive, Respiratory, Urinary, Cardiovascular, Endocrine, Skin, Woman Reproductive, Male Reproductive)
 **Website Status:** Optimized and Fully Functional ✅
