@@ -30,6 +30,9 @@ index-backup.html
 ~$*
 .~lock.*
 
+# PDF files with sensitive or source data
+properties.pdf
+
 # Optional: Uncomment if you don't want to track these
 # clause.md
 # OPTIMIZATION-SUMMARY.md

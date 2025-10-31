@@ -88,7 +88,9 @@ body:has(main .plant-list)::after {
     background-position: -15px -5px;
     z-index: 0;
     clip-path: inset(8px 8px 12px 15px); /* Crops edges for better appearance */
-    opacity: 0.4; /* Subtle background effect */
+    opacity: 0.35; /* Slightly more visible */
+    mask-image: radial-gradient(ellipse 120% 100% at 30% 40%, black 40%, transparent 85%); /* Fade right/bottom edges more */
+    -webkit-mask-image: radial-gradient(ellipse 120% 100% at 30% 40%, black 40%, transparent 85%); /* Safari support */
 }
 
 /* Gradient overlay to fade botanical image into background */
@@ -101,11 +103,12 @@ body:has(main .plant-list)::before {
     height: 100%;
     background:
         linear-gradient(to right,
-            rgba(245, 241, 232, 0.95) 0%,   /* Solid on left */
-            rgba(245, 241, 232, 0.85) 50%,  /* Fade in middle */
-            rgba(245, 241, 232, 0.6) 70%,
-            rgba(245, 241, 232, 0.3) 85%,
-            rgba(245, 241, 232, 0) 100%);   /* Transparent on right */
+            rgba(245, 241, 232, 0.98) 0%,   /* Almost solid on left */
+            rgba(245, 241, 232, 0.95) 40%,  /* Strong fade */
+            rgba(245, 241, 232, 0.85) 60%,  /* Continue fading */
+            rgba(245, 241, 232, 0.5) 80%,   /* More transparent */
+            rgba(245, 241, 232, 0.2) 90%,   /* Very transparent */
+            rgba(245, 241, 232, 0) 100%);   /* Fully transparent on right */
     pointer-events: none; /* Allow clicks to pass through */
     z-index: 1;
 }
@@ -130,7 +133,9 @@ body.nervous-system-page::after {
     background-position: -15px -5px;
     z-index: 0;
     clip-path: inset(8px 8px 12px 15px); /* Crops edges for better appearance */
-    opacity: 0.4; /* Subtle background effect */
+    opacity: 0.35; /* Slightly more visible */
+    mask-image: radial-gradient(ellipse 120% 100% at 30% 40%, black 40%, transparent 85%); /* Fade right/bottom edges more */
+    -webkit-mask-image: radial-gradient(ellipse 120% 100% at 30% 40%, black 40%, transparent 85%); /* Safari support */
 }
 
 /* Gradient overlay for nervous system page */
@@ -143,11 +148,12 @@ body.nervous-system-page::before {
     height: 100%;
     background:
         linear-gradient(to right,
-            rgba(245, 241, 232, 0.95) 0%,   /* Solid on left */
-            rgba(245, 241, 232, 0.85) 50%,  /* Fade in middle */
-            rgba(245, 241, 232, 0.6) 70%,
-            rgba(245, 241, 232, 0.3) 85%,
-            rgba(245, 241, 232, 0) 100%);   /* Transparent on right */
+            rgba(245, 241, 232, 0.98) 0%,   /* Almost solid on left */
+            rgba(245, 241, 232, 0.95) 40%,  /* Strong fade */
+            rgba(245, 241, 232, 0.85) 60%,  /* Continue fading */
+            rgba(245, 241, 232, 0.5) 80%,   /* More transparent */
+            rgba(245, 241, 232, 0.2) 90%,   /* Very transparent */
+            rgba(245, 241, 232, 0) 100%);   /* Fully transparent on right */
     pointer-events: none; /* Allow clicks to pass through */
     z-index: 1;
 }
@@ -172,7 +178,9 @@ body.immune-system-page::after {
     background-position: -15px -5px;
     z-index: 0;
     clip-path: inset(8px 8px 12px 15px); /* Crops edges for better appearance */
-    opacity: 0.4; /* Subtle background effect */
+    opacity: 0.35; /* Slightly more visible */
+    mask-image: radial-gradient(ellipse 120% 100% at 30% 40%, black 40%, transparent 85%); /* Fade right/bottom edges more */
+    -webkit-mask-image: radial-gradient(ellipse 120% 100% at 30% 40%, black 40%, transparent 85%); /* Safari support */
 }
 
 /* Gradient overlay for immune system page */
@@ -185,17 +193,108 @@ body.immune-system-page::before {
     height: 100%;
     background:
         linear-gradient(to right,
-            rgba(245, 241, 232, 0.95) 0%,   /* Solid on left */
-            rgba(245, 241, 232, 0.85) 50%,  /* Fade in middle */
-            rgba(245, 241, 232, 0.6) 70%,
-            rgba(245, 241, 232, 0.3) 85%,
-            rgba(245, 241, 232, 0) 100%);   /* Transparent on right */
+            rgba(245, 241, 232, 0.98) 0%,   /* Almost solid on left */
+            rgba(245, 241, 232, 0.95) 40%,  /* Strong fade */
+            rgba(245, 241, 232, 0.85) 60%,  /* Continue fading */
+            rgba(245, 241, 232, 0.5) 80%,   /* More transparent */
+            rgba(245, 241, 232, 0.2) 90%,   /* Very transparent */
+            rgba(245, 241, 232, 0) 100%);   /* Fully transparent on right */
     pointer-events: none; /* Allow clicks to pass through */
     z-index: 1;
 }
 
 /* Ensure content appears above immune system background effects */
 body.immune-system-page .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Woman Reproductive System page background - Red Clover botanical illustration */
+/* Positioned at top right corner, similar to other system pages */
+body.woman-reproductive-system-page::after {
+    content: '';
+    position: fixed;
+    top: -50px;
+    right: -120px;
+    width: 550px;
+    height: 700px;
+    background-image: url('images/Trifolium_pratense.jpg');
+    background-size: cover;
+    background-position: -15px -5px;
+    z-index: 0;
+    clip-path: inset(8px 8px 12px 15px); /* Crops edges for better appearance */
+    opacity: 0.35; /* Slightly more visible */
+    mask-image: radial-gradient(ellipse 120% 100% at 30% 40%, black 40%, transparent 85%); /* Fade right/bottom edges more */
+    -webkit-mask-image: radial-gradient(ellipse 120% 100% at 30% 40%, black 40%, transparent 85%); /* Safari support */
+}
+
+/* Gradient overlay for woman reproductive system page */
+body.woman-reproductive-system-page::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        linear-gradient(to right,
+            rgba(245, 241, 232, 0.98) 0%,   /* Almost solid on left */
+            rgba(245, 241, 232, 0.95) 40%,  /* Strong fade */
+            rgba(245, 241, 232, 0.85) 60%,  /* Continue fading */
+            rgba(245, 241, 232, 0.5) 80%,   /* More transparent */
+            rgba(245, 241, 232, 0.2) 90%,   /* Very transparent */
+            rgba(245, 241, 232, 0) 100%);   /* Fully transparent on right */
+    pointer-events: none; /* Allow clicks to pass through */
+    z-index: 1;
+}
+
+/* Ensure content appears above woman reproductive system background effects */
+body.woman-reproductive-system-page .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Male Reproductive System Page Styles */
+/* Background botanical illustration for male reproductive system */
+body.male-reproductive-system-page::after {
+    content: '';
+    position: fixed;
+    top: -50px;
+    right: -120px;
+    width: 550px;
+    height: 700px;
+    background-image: url('images/Hypericum_perforatum.jpg');
+    background-size: cover;
+    background-position: -15px -5px;
+    z-index: 0;
+    clip-path: inset(8px 8px 12px 15px);
+    opacity: 0.35;
+    mask-image: radial-gradient(ellipse 120% 100% at 30% 40%, black 40%, transparent 85%);
+    -webkit-mask-image: radial-gradient(ellipse 120% 100% at 30% 40%, black 40%, transparent 85%);
+}
+
+/* Gradient overlay for male reproductive system page */
+body.male-reproductive-system-page::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        linear-gradient(to right,
+            rgba(245, 241, 232, 0.98) 0%,
+            rgba(245, 241, 232, 0.95) 40%,
+            rgba(245, 241, 232, 0.85) 60%,
+            rgba(245, 241, 232, 0.5) 80%,
+            rgba(245, 241, 232, 0.2) 90%,
+            rgba(245, 241, 232, 0) 100%);
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Ensure content appears above male reproductive system background effects */
+body.male-reproductive-system-page .container {
     position: relative;
     z-index: 1;
 }
@@ -455,6 +554,8 @@ header h1 {
 .system-badge.respiratory,
 .system-badge.urinary,
 .system-badge.cardiovascular,
+.system-badge.woman-reproductive,
+.system-badge.male-reproductive,
 .system-badge.hormonal {
     background-color: transparent;
     color: var(--color-secondary);
@@ -582,5 +683,26 @@ footer {
 
     .plant-list {
         grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* Adjust background images to be closer to content on large screens */
+    body:has(main .plant-list)::after,
+    body.nervous-system-page::after,
+    body.immune-system-page::after,
+    body.woman-reproductive-system-page::after,
+    body.male-reproductive-system-page::after {
+        right: calc((100vw - 1400px) / 2 - 250px); /* Position relative to container edge */
+    }
+}
+
+/* Extra large screens */
+@media (min-width: 1920px) {
+    /* Keep background images from going too far right on very large screens */
+    body:has(main .plant-list)::after,
+    body.nervous-system-page::after,
+    body.immune-system-page::after,
+    body.woman-reproductive-system-page::after,
+    body.male-reproductive-system-page::after {
+        right: calc((100vw - 1400px) / 2 - 200px); /* Closer to content */
     }
 }
