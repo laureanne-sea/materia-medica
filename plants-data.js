@@ -401,7 +401,8 @@ window.PLANTS_DATA = [
       "Antilithic"
     ],
     "status": "in-progress",
-    "fileSlug": "gravel-root"
+    "fileSlug": "gravel-root",
+    "family": "Asteraceae (Daisy family)"
   },
   {
     "commonName": "Ginger",
@@ -535,7 +536,8 @@ window.PLANTS_DATA = [
     ],
     "properties": [],
     "status": "in-progress",
-    "fileSlug": "horseradish"
+    "fileSlug": "horseradish",
+    "family": "Brassicaceae (Mustard family)"
   },
   {
     "commonName": "Irish Moss",
@@ -547,7 +549,8 @@ window.PLANTS_DATA = [
     ],
     "properties": [],
     "status": "in-progress",
-    "fileSlug": "irish-moss"
+    "fileSlug": "irish-moss",
+    "family": "Gigartinaceae (Red algae family)"
   },
   {
     "commonName": "Juniper Berries",
@@ -559,7 +562,8 @@ window.PLANTS_DATA = [
     ],
     "properties": [],
     "status": "in-progress",
-    "fileSlug": "juniper-berries"
+    "fileSlug": "juniper-berries",
+    "family": "Cupressaceae (Cypress family)"
   },
   {
     "commonName": "Licorice",
@@ -634,7 +638,8 @@ window.PLANTS_DATA = [
       "Vulnerary"
     ],
     "status": "in-progress",
-    "fileSlug": "marshmallow"
+    "fileSlug": "marshmallow",
+    "family": "Malvaceae (Mallow family)"
   },
   {
     "commonName": "Mullein",
@@ -694,7 +699,8 @@ window.PLANTS_DATA = [
       "Choleretic"
     ],
     "status": "in-progress",
-    "fileSlug": "oregon-grape"
+    "fileSlug": "oregon-grape",
+    "family": "Berberidaceae (Barberry family)"
   },
   {
     "commonName": "Parsley Root",
@@ -706,7 +712,8 @@ window.PLANTS_DATA = [
     ],
     "properties": [],
     "status": "in-progress",
-    "fileSlug": "parsley-root"
+    "fileSlug": "parsley-root",
+    "family": "Apiaceae (Carrot family)"
   },
   {
     "commonName": "Peppermint",
@@ -745,7 +752,8 @@ window.PLANTS_DATA = [
     ],
     "properties": [],
     "status": "in-progress",
-    "fileSlug": "pipsissewa"
+    "fileSlug": "pipsissewa",
+    "family": "Ericaceae (Heath family)"
   },
   {
     "commonName": "Plantain",
@@ -764,7 +772,8 @@ window.PLANTS_DATA = [
       "Expectorant"
     ],
     "status": "in-progress",
-    "fileSlug": "plantain"
+    "fileSlug": "plantain",
+    "family": "Plantaginaceae (Plantain family)"
   },
   {
     "commonName": "Pleurisy Root",
@@ -779,7 +788,8 @@ window.PLANTS_DATA = [
       "Bronchial antispasmodic"
     ],
     "status": "in-progress",
-    "fileSlug": "pleurisy"
+    "fileSlug": "pleurisy",
+    "family": "Apocynaceae (Dogbane family)"
   },
   {
     "commonName": "Prickly Ash",
@@ -794,7 +804,8 @@ window.PLANTS_DATA = [
       "Analgesic"
     ],
     "status": "in-progress",
-    "fileSlug": "prickly-ash"
+    "fileSlug": "prickly-ash",
+    "family": "Rutaceae (Rue family)"
   },
   {
     "commonName": "Psyllium",
@@ -808,11 +819,13 @@ window.PLANTS_DATA = [
       "Emollient"
     ],
     "status": "in-progress",
-    "fileSlug": "psyllium"
+    "fileSlug": "psyllium",
+    "family": "Plantaginaceae (Plantain family)"
   },
   {
     "commonName": "Red Clover",
     "botanicalName": "Trifolium pratense",
+    "family": "Fabaceae (Legume family)",
     "danishName": "Rødkløver",
     "frenchName": "Trèfle rouge",
     "systems": [
@@ -929,7 +942,8 @@ window.PLANTS_DATA = [
       "Astringent"
     ],
     "status": "in-progress",
-    "fileSlug": "uva-ursi"
+    "fileSlug": "uva-ursi",
+    "family": "Ericaceae (Heath family)"
   },
   {
     "commonName": "Valerian",
@@ -963,7 +977,8 @@ window.PLANTS_DATA = [
     ],
     "properties": [],
     "status": "in-progress",
-    "fileSlug": "wood-betony"
+    "fileSlug": "wood-betony",
+    "family": "Lamiaceae (Mint family)"
   },
   {
     "commonName": "Yellow Dock",
@@ -979,7 +994,8 @@ window.PLANTS_DATA = [
       "Laxative"
     ],
     "status": "in-progress",
-    "fileSlug": "yellow-dock"
+    "fileSlug": "yellow-dock",
+    "family": "Polygonaceae (Buckwheat family)"
   },
   {
     "commonName": "Raspberry Leaf",
@@ -1042,7 +1058,8 @@ window.PLANTS_DATA = [
       "Estrogen regulating"
     ],
     "status": "in-progress",
-    "fileSlug": "vitex"
+    "fileSlug": "vitex",
+    "family": "Lamiaceae (Mint family)"
   },
   {
     "commonName": "Motherwort",
@@ -1088,7 +1105,8 @@ window.PLANTS_DATA = [
       "Estrogen regulating"
     ],
     "status": "in-progress",
-    "fileSlug": "black-cohosh"
+    "fileSlug": "black-cohosh",
+    "family": "Ranunculaceae (Buttercup family)"
   },
   {
     "commonName": "Blue Cohosh",
@@ -1104,7 +1122,8 @@ window.PLANTS_DATA = [
       "Menstruation regulating"
     ],
     "status": "in-progress",
-    "fileSlug": "blue-cohosh"
+    "fileSlug": "blue-cohosh",
+    "family": "Berberidaceae (Barberry family)"
   },
   {
     "commonName": "Pennyroyal",
@@ -1120,7 +1139,8 @@ window.PLANTS_DATA = [
       "Carminative"
     ],
     "status": "in-progress",
-    "fileSlug": "pennyroyal"
+    "fileSlug": "pennyroyal",
+    "family": "Lamiaceae (Mint family)"
   },
   {
     "commonName": "Cramp Bark",
@@ -1172,7 +1192,8 @@ window.PLANTS_DATA = [
       "Antioxidant"
     ],
     "status": "in-progress",
-    "fileSlug": "angelica"
+    "fileSlug": "angelica",
+    "family": "Apiaceae (Carrot family)"
   },
   {
     "commonName": "Dong Quai",
@@ -1257,7 +1278,8 @@ window.PLANTS_DATA = [
       "Male tonic"
     ],
     "status": "in-progress",
-    "fileSlug": "sarsaparilla"
+    "fileSlug": "sarsaparilla",
+    "family": "Smilacaceae (Greenbrier family)"
   },
   {
     "commonName": "Siberian Ginseng",
@@ -1320,7 +1342,8 @@ window.PLANTS_DATA = [
       "Choleretic"
     ],
     "status": "in-progress",
-    "fileSlug": "turkey-rhubarb"
+    "fileSlug": "turkey-rhubarb",
+    "family": "Polygonaceae (Buckwheat family)"
   },
   {
     "commonName": "Gentian",
@@ -1337,7 +1360,8 @@ window.PLANTS_DATA = [
       "Sialagogue"
     ],
     "status": "in-progress",
-    "fileSlug": "gentian"
+    "fileSlug": "gentian",
+    "family": "Gentianaceae (Gentian family)"
   },
   {
     "commonName": "Cascara Sagrada",
@@ -1441,7 +1465,8 @@ window.PLANTS_DATA = [
       "Laxative"
     ],
     "status": "in-progress",
-    "fileSlug": "senna"
+    "fileSlug": "senna",
+    "family": "Fabaceae (Legume family)"
   },
   {
     "commonName": "Schisandra",
@@ -1537,7 +1562,8 @@ window.PLANTS_DATA = [
       "Parasite inhibiting"
     ],
     "status": "in-progress",
-    "fileSlug": "pau-darco"
+    "fileSlug": "pau-darco",
+    "family": "Bignoniaceae (Trumpet vine family)"
   },
   {
     "commonName": "Shiitake Mushroom",
@@ -1650,7 +1676,8 @@ window.PLANTS_DATA = [
       "Immunomodulating"
     ],
     "status": "in-progress",
-    "fileSlug": "garlic"
+    "fileSlug": "garlic",
+    "family": "Amaryllidaceae (Amaryllis family)"
   },
   {
     "commonName": "Aloe Vera",
@@ -1774,7 +1801,8 @@ window.PLANTS_DATA = [
       "Immunomodulating"
     ],
     "status": "in-progress",
-    "fileSlug": "chamomile-german"
+    "fileSlug": "chamomile-german",
+    "family": "Asteraceae (Daisy family)"
   },
   {
     "commonName": "Turmeric",
@@ -1864,7 +1892,8 @@ window.PLANTS_DATA = [
       "Antispasmodic"
     ],
     "status": "in-progress",
-    "fileSlug": "lavender"
+    "fileSlug": "lavender",
+    "family": "Lamiaceae (Mint family)"
   },
   {
     "commonName": "Lemon Balm",
@@ -1902,7 +1931,8 @@ window.PLANTS_DATA = [
       "Antifungal"
     ],
     "status": "in-progress",
-    "fileSlug": "tea-tree"
+    "fileSlug": "tea-tree",
+    "family": "Myrtaceae (Myrtle family)"
   },
   {
     "commonName": "Olive Leaf",
