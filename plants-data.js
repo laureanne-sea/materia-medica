@@ -3471,28 +3471,6 @@ window.PLANTS_DATA = [
     "fileSlug": "valerian"
   },
   {
-    "commonName": "Valerian",
-    "botanicalName": "Valeriana officinalis",
-    "family": "Caprifoliaceae (Honeysuckle family)",
-    "danishName": "Baldrian",
-    "frenchName": "Valériane",
-    "systems": [
-      "nervous"
-    ],
-    "properties": [
-      "Anticonvulsant (epilepsy)",
-      "Sedative",
-      "Antispasmodic",
-      "Hypnotic",
-      "Blood pressure regulating",
-      "Blood pressure lowering",
-      "Analgesic",
-      "Nerve tonic"
-    ],
-    "status": "in-progress",
-    "fileSlug": "valerian-root"
-  },
-  {
     "commonName": "Vervain",
     "botanicalName": "Verbena officinalis",
     "family": "Verbenaceae (Verbena family)",
