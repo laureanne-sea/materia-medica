@@ -6,25 +6,20 @@
 (function() {
     'use strict';
 
+    // Import utilities from shared utils.js
+    const { escapeHtml, logError, logWarn, isValidArray } = window.Utils || {};
+
+    // Validate that utils.js is loaded
+    if (!window.Utils) {
+        console.error('[SearchFilter] utils.js not loaded! Search and filter functionality may not work correctly.');
+    }
+
     let allPlants = [];
     let currentFilters = {
         searchText: '',
         properties: [],
         family: ''
     };
-
-    /**
-     * Escape HTML to prevent XSS attacks
-     */
-    function escapeHtml(unsafe) {
-        if (typeof unsafe !== 'string') return '';
-        return unsafe
-            .replace(/&/g, "&amp;")
-            .replace(/</g, "&lt;")
-            .replace(/>/g, "&gt;")
-            .replace(/"/g, "&quot;")
-            .replace(/'/g, "&#039;");
-    }
 
     /**
      * Display error message to user

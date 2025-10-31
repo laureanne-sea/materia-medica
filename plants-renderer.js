@@ -7,6 +7,14 @@
 (function() {
     'use strict';
 
+    // Import utilities from shared utils.js
+    const { escapeHtml, logError, logWarn, isValidString, isValidArray } = window.Utils || {};
+
+    // Validate that utils.js is loaded
+    if (!window.Utils) {
+        console.error('[PlantsRenderer] utils.js not loaded! Plant rendering may not work correctly.');
+    }
+
     // System configuration
     const SYSTEM_CONFIG = {
         nervous: { label: 'Nervous System', class: 'nervous' },
@@ -20,19 +28,6 @@
         'woman-reproductive': { label: 'Woman Reproductive System', class: 'woman-reproductive' },
         'male-reproductive': { label: 'Male Reproductive System', class: 'male-reproductive' }
     };
-
-    /**
-     * Escape HTML to prevent XSS attacks
-     */
-    function escapeHtml(unsafe) {
-        if (typeof unsafe !== 'string') return '';
-        return unsafe
-            .replace(/&/g, "&amp;")
-            .replace(/</g, "&lt;")
-            .replace(/>/g, "&gt;")
-            .replace(/"/g, "&quot;")
-            .replace(/'/g, "&#039;");
-    }
 
     /**
      * Validate plant object structure

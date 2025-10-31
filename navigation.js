@@ -6,6 +6,14 @@
 (function() {
     'use strict';
 
+    // Import utilities from shared utils.js
+    const { escapeHtml, logError, logWarn, isValidString } = window.Utils || {};
+
+    // Validate that utils.js is loaded
+    if (!window.Utils) {
+        console.error('[Navigation] utils.js not loaded! Navigation may not work correctly.');
+    }
+
     // Navigation structure - single source of truth
     const NAV_ITEMS = [
         { href: 'index.html', label: 'All Plants', id: 'all' },
@@ -78,19 +86,6 @@
             console.error('[Navigation] Error in getActiveNavId:', error);
             return 'all';
         }
-    }
-
-    /**
-     * Escape HTML to prevent XSS
-     */
-    function escapeHtml(unsafe) {
-        if (typeof unsafe !== 'string') return '';
-        return unsafe
-            .replace(/&/g, "&amp;")
-            .replace(/</g, "&lt;")
-            .replace(/>/g, "&gt;")
-            .replace(/"/g, "&quot;")
-            .replace(/'/g, "&#039;");
     }
 
     /**
