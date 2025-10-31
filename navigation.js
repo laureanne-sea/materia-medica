@@ -9,6 +9,7 @@
     // Navigation structure - single source of truth
     const NAV_ITEMS = [
         { href: 'index.html', label: 'All Plants', id: 'all' },
+        { href: 'property-statistics.html', label: 'Properties', id: 'properties' },
         { href: 'nervous-system.html', label: 'Nervous System', id: 'nervous' },
         { href: 'immune-system.html', label: 'Immune System', id: 'immune' },
         { href: 'digestive-system.html', label: 'Digestive System', id: 'digestive' },

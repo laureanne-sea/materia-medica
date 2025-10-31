@@ -123,21 +123,34 @@ body {
 }
 
 .filter-box select {
-    padding: 10px 12px;
+    padding: 10px 36px 10px 12px;
     font-size: 0.95em;
     font-family: var(--font-family-serif);
     border: 1px solid #ddd;
-    border-radius: 4px;
+    border-radius: 6px;
     background-color: #fff;
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%235A6F4F' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
     color: var(--color-text);
     cursor: pointer;
-    transition: border-color 0.2s;
+    transition: all 0.2s ease;
     min-width: 200px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.filter-box select:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 
 .filter-box select:focus {
     outline: none;
     border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(90, 111, 79, 0.1);
 }
 
 /* Active Filters Display */
@@ -155,52 +168,70 @@ body {
 .filter-tag {
     display: inline-flex;
     align-items: center;
-    gap: 4px;
-    background-color: rgba(90, 111, 79, 0.1);
-    border: 1px solid rgba(90, 111, 79, 0.3);
+    gap: 6px;
+    background: linear-gradient(135deg, rgba(90, 111, 79, 0.12) 0%, rgba(90, 111, 79, 0.08) 100%);
+    border: 1px solid rgba(90, 111, 79, 0.25);
     color: var(--color-text);
-    padding: 4px 10px;
-    border-radius: 12px;
-    font-size: 0.85em;
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 0.9em;
+    font-weight: 500;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    transition: all 0.2s ease;
+}
+
+.filter-tag:hover {
+    background: linear-gradient(135deg, rgba(90, 111, 79, 0.18) 0%, rgba(90, 111, 79, 0.12) 100%);
+    border-color: rgba(90, 111, 79, 0.35);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
 }
 
 .remove-filter {
-    background: none;
+    background: rgba(90, 111, 79, 0.15);
     border: none;
+    border-radius: 50%;
     color: var(--color-text);
-    font-size: 1.2em;
+    font-size: 1em;
+    font-weight: bold;
     cursor: pointer;
     padding: 0;
     margin-left: 2px;
     line-height: 1;
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0.6;
-    transition: opacity 0.2s;
+    opacity: 0.7;
+    transition: all 0.2s ease;
 }
 
 .remove-filter:hover {
     opacity: 1;
+    background: rgba(90, 111, 79, 0.3);
+    transform: scale(1.1);
 }
 
 .clear-all-filters {
-    background: none;
+    background: #fff;
     color: var(--color-text);
     border: 1px solid #ddd;
-    padding: 4px 12px;
-    border-radius: 12px;
-    font-size: 0.85em;
+    padding: 6px 14px;
+    border-radius: 16px;
+    font-size: 0.9em;
     font-family: var(--font-family-serif);
+    font-weight: 500;
     cursor: pointer;
-    transition: border-color 0.2s, background-color 0.2s;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
 
 .clear-all-filters:hover {
-    background-color: rgba(0, 0, 0, 0.05);
-    border-color: #bbb;
+    background-color: rgba(90, 111, 79, 0.08);
+    border-color: rgba(90, 111, 79, 0.3);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
 }
 
 /* Results Count */

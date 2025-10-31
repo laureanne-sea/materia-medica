@@ -29,6 +29,7 @@
                 window.PlantsRenderer.renderIndexPage();
                 window.SearchFilter.init();
                 window.SearchFilter.populatePropertyDropdown();
+                window.SearchFilter.populateFamilyDropdown();
             });
         </script>
 
@@ -111,6 +112,13 @@
                             <label for="property-filter">Filter by property:</label>
                             <select id="property-filter" aria-label="Filter by medicinal property">
                                 <option value="">Select a property...</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-box">
+                            <label for="family-filter">Filter by family:</label>
+                            <select id="family-filter" aria-label="Filter by botanical family">
+                                <option value="">Select a family...</option>
                             </select>
                         </div>
                     </div>

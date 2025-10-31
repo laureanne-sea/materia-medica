@@ -9,7 +9,8 @@
     let allPlants = [];
     let currentFilters = {
         searchText: '',
-        properties: []
+        properties: [],
+        family: ''
     };
 
     /**
@@ -26,6 +27,7 @@
         // Set up event listeners
         setupSearchInput();
         setupPropertyFilters();
+        setupFamilyFilter();
     }
 
     /**
@@ -86,9 +88,13 @@
     function clearAllFilters() {
         currentFilters.searchText = '';
         currentFilters.properties = [];
+        currentFilters.family = '';
 
         const searchInput = document.getElementById('search-input');
         if (searchInput) searchInput.value = '';
+
+        const familySelect = document.getElementById('family-filter');
+        if (familySelect) familySelect.value = '';
 
         updateActiveFiltersDisplay();
         applyFilters();
@@ -135,6 +141,19 @@
     }
 
     /**
+     * Set up family filter listener
+     */
+    function setupFamilyFilter() {
+        const familySelect = document.getElementById('family-filter');
+        if (!familySelect) return;
+
+        familySelect.addEventListener('change', function(e) {
+            currentFilters.family = e.target.value;
+            applyFilters();
+        });
+    }
+
+    /**
      * Filter plants based on current filters
      */
     function filterPlants(plants) {
@@ -161,6 +180,13 @@
                 return currentFilters.properties.every(filterProp =>
                     plant.properties.some(plantProp => plantProp === filterProp)
                 );
+            });
+        }
+
+        // Apply family filter
+        if (currentFilters.family) {
+            filtered = filtered.filter(plant => {
+                return plant.family && plant.family === currentFilters.family;
             });
         }
 
@@ -285,11 +311,38 @@
         select.innerHTML = `<option value="">Select a property...</option>${options}`;
     }
 
+    /**
+     * Populate family dropdown with all available botanical families
+     */
+    function populateFamilyDropdown() {
+        const select = document.getElementById('family-filter');
+        if (!select) return;
+
+        // Get all unique families from plants
+        const allFamilies = new Set();
+        allPlants.forEach(plant => {
+            if (plant.family) {
+                allFamilies.add(plant.family);
+            }
+        });
+
+        // Sort families alphabetically
+        const sortedFamilies = Array.from(allFamilies).sort();
+
+        // Create options
+        const options = sortedFamilies.map(family =>
+            `<option value="${family}">${family}</option>`
+        ).join('');
+
+        select.innerHTML = `<option value="">Select a family...</option>${options}`;
+    }
+
     // Expose public API
     window.SearchFilter = {
         init,
         clearAllFilters,
-        populatePropertyDropdown
+        populatePropertyDropdown,
+        populateFamilyDropdown
     };
 
 })();
