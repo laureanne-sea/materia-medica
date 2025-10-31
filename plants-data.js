@@ -60,7 +60,7 @@ window.PLANTS_DATA = [
     "botanicalName": "Larrea tridenta and related species",
     "danishName": "Kreosotbusk",
     "frenchName": "Larréa",
-    "systems": ["digestive"],
+    "systems": ["digestive", "skin"],
     "properties": [],
     "status": "in-progress",
     "fileSlug": "chaparral"
@@ -80,7 +80,7 @@ window.PLANTS_DATA = [
     "botanicalName": "Cinnamomum zeylanicum",
     "danishName": null,
     "frenchName": null,
-    "systems": ["cardiovascular"],
+    "systems": ["cardiovascular", "skin"],
     "properties": ["Aldose reductase inhibiting", "Antibacterial", "Antiemetic", "Antimicrobial", "Anti-ulcer", "Appetite stimulant", "Astringent", "Blood sugar regulating", "Carminative", "Antiparasitic", "Antifungal"],
     "status": "in-progress",
     "fileSlug": "cinnamon"
@@ -160,7 +160,7 @@ window.PLANTS_DATA = [
     "botanicalName": "Inula helenium",
     "danishName": "Alant",
     "frenchName": "Aunée",
-    "systems": ["respiratory"],
+    "systems": ["respiratory", "skin"],
     "properties": ["Antibacterial", "Astringent", "Bronchial antispasmodic", "Antispasmodic", "Expectorant", "Diaphoretic"],
     "status": "in-progress",
     "fileSlug": "elecampane"
@@ -210,7 +210,7 @@ window.PLANTS_DATA = [
     "botanicalName": "Eupatorium purpureum",
     "danishName": "Sumphjortetrøst",
     "frenchName": "Eupatoire pourpre",
-    "systems": ["urinary"],
+    "systems": ["urinary", "skin"],
     "properties": ["Antilithic"],
     "status": "in-progress",
     "fileSlug": "gravel-root"
@@ -300,7 +300,7 @@ window.PLANTS_DATA = [
     "botanicalName": "Lobelia inflata",
     "danishName": "Oppustet lobelia",
     "frenchName": "Lobélie gonflée, Tabac indien",
-    "systems": ["nervous", "respiratory"],
+    "systems": ["nervous", "respiratory", "skin"],
     "properties": [],
     "status": "in-progress",
     "fileSlug": "lobelia"
@@ -320,7 +320,7 @@ window.PLANTS_DATA = [
     "botanicalName": "Verbascum thapsus",
     "danishName": "Kongelys",
     "frenchName": "Molène",
-    "systems": ["respiratory"],
+    "systems": ["respiratory", "skin"],
     "properties": ["Vulnerary", "Mucous reducing (lower respiratory)", "Expectorant"],
     "status": "in-progress",
     "fileSlug": "mullein"
@@ -390,7 +390,7 @@ window.PLANTS_DATA = [
     "botanicalName": "Asclepias tuberosa",
     "danishName": "Orangesilkeplante",
     "frenchName": "Asclépiade tubéreuse",
-    "systems": ["respiratory"],
+    "systems": ["respiratory", "skin"],
     "properties": ["Bronchial antispasmodic"],
     "status": "in-progress",
     "fileSlug": "pleurisy"
@@ -460,7 +460,7 @@ window.PLANTS_DATA = [
     "botanicalName": "Hypericum perforatum",
     "danishName": "Prikbladet perikon",
     "frenchName": "Millepertuis perforé",
-    "systems": ["nervous"],
+    "systems": ["nervous", "skin"],
     "properties": ["Antidepressant", "Anti-inflammatory (topical)", "Antiviral (internal)", "Antiviral (topical)", "Vulnerary", "Nervine tonic", "Analgesic", "Antifungal"],
     "status": "in-progress",
     "fileSlug": "st-johns-wort"
@@ -470,7 +470,7 @@ window.PLANTS_DATA = [
     "botanicalName": "Arctostaphylos uva-ursi",
     "danishName": "Melbærris",
     "frenchName": "Raisin d'ours",
-    "systems": ["urinary"],
+    "systems": ["urinary", "skin"],
     "properties": ["Urinary antiseptic", "Astringent"],
     "status": "in-progress",
     "fileSlug": "uva-ursi"
@@ -830,7 +830,7 @@ window.PLANTS_DATA = [
     "botanicalName": "Althaea officinalis",
     "danishName": "Læge-altea",
     "frenchName": "Guimauve",
-    "systems": ["digestive", "respiratory", "urinary"],
+    "systems": ["digestive", "respiratory", "urinary", "skin"],
     "properties": ["Anti-inflammatory (digestive)", "Anti-inflammatory (respiratory)", "Anti-inflammatory (urinary)", "Anti-ulcer", "Emollient", "Vulnerary"],
     "status": "in-progress",
     "fileSlug": "marshmallow-root"
@@ -840,7 +840,7 @@ window.PLANTS_DATA = [
     "botanicalName": "Arnica montana",
     "danishName": "Almindelig arnika",
     "frenchName": "Arnica des montagnes",
-    "systems": ["cardiovascular"],
+    "systems": ["cardiovascular", "skin"],
     "properties": ["Analgesic (topical)", "Anti-inflammatory (topical)", "Antimicrobial (topical)", "Vulnerary (topical)"],
     "status": "in-progress",
     "fileSlug": "arnica"
@@ -850,7 +850,7 @@ window.PLANTS_DATA = [
     "botanicalName": "Calendula officinalis",
     "danishName": "Have-morgenfrue",
     "frenchName": "Souci officinal",
-    "systems": ["digestive", "immune"],
+    "systems": ["digestive", "immune", "skin"],
     "properties": ["Anti-inflammatory (general)", "Anti-inflammatory (digestive)", "Anti-inflammatory (topical)", "Antimicrobial", "Antiviral (topical)", "Astringent", "Choleretic", "Blood purifying", "Vulnerary", "Lymphatic stimulant", "Antifungal"],
     "status": "in-progress",
     "fileSlug": "calendula"
@@ -860,7 +860,7 @@ window.PLANTS_DATA = [
     "botanicalName": "Matricaria chamomilla",
     "danishName": "Kamille",
     "frenchName": "Camomille",
-    "systems": ["digestive", "nervous"],
+    "systems": ["digestive", "nervous", "skin"],
     "properties": ["Antiallergic", "Anti-inflammatory (general)", "Anti-inflammatory (digestive)", "Anti-inflammatory (topical)", "Anti-ulcer", "Antirheumatic", "Antioxidant", "Bitter tonic", "Carminative", "Choleretic", "Vulnerary", "Antispasmodic", "Sedative", "Antifungal", "Immunomodulating"],
     "status": "in-progress",
     "fileSlug": "chamomile-german"
@@ -870,7 +870,7 @@ window.PLANTS_DATA = [
     "botanicalName": "Curcuma longa",
     "danishName": "Gurkemeje",
     "frenchName": "Curcuma",
-    "systems": ["digestive", "cardiovascular", "immune"],
+    "systems": ["digestive", "cardiovascular", "immune", "skin"],
     "properties": ["Anticancer preventive", "Anti-inflammatory (general)", "Anti-inflammatory (musculoskeletal)", "Anti-inflammatory (brain)", "Anti-inflammatory (circulatory)", "Anti-inflammatory (liver)", "Anticoagulant", "Antioxidant", "Antirheumatic", "Blood purifying", "Blood sugar regulating", "Choleretic", "Cholesterol lowering", "Fibrin counteracting", "Hepatoprotective", "Analgesic", "Antifungal"],
     "status": "in-progress",
     "fileSlug": "turmeric"
@@ -900,7 +900,7 @@ window.PLANTS_DATA = [
     "botanicalName": "Lavandula officinalis",
     "danishName": "Lavendel",
     "frenchName": "Lavande",
-    "systems": ["nervous"],
+    "systems": ["nervous", "skin"],
     "properties": ["Antidepressant", "Antipruritic", "Carminative", "Sedative", "Antispasmodic"],
     "status": "in-progress",
     "fileSlug": "lavender"
@@ -910,7 +910,7 @@ window.PLANTS_DATA = [
     "botanicalName": "Melissa officinalis",
     "danishName": "Hjertensfryd",
     "frenchName": "Mélisse",
-    "systems": ["nervous", "digestive"],
+    "systems": ["nervous", "digestive", "skin"],
     "properties": ["Antiviral (topical)", "Carminative", "Sedative", "Antispasmodic", "Hypnotic", "Diaphoretic"],
     "status": "in-progress",
     "fileSlug": "lemon-balm"

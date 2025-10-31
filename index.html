@@ -23,9 +23,12 @@
         <script src="navigation.js" defer></script>
         <script src="plants-data.js"></script>
         <script src="plants-renderer.js"></script>
+        <script src="search-filter.js"></script>
         <script>
             document.addEventListener('DOMContentLoaded', function() {
                 window.PlantsRenderer.renderIndexPage();
+                window.SearchFilter.init();
+                window.SearchFilter.populatePropertyDropdown();
             });
         </script>
 
@@ -91,6 +94,32 @@
             <div id="nav-placeholder"></div>
 
             <main id="main-content">
+                <!-- Search and Filter Section -->
+                <div class="search-filter-section">
+                    <div class="search-filter-row">
+                        <div class="search-box">
+                            <label for="search-input" class="visually-hidden">Search plants</label>
+                            <input
+                                type="text"
+                                id="search-input"
+                                placeholder="Search by plant name..."
+                                aria-label="Search plants by name"
+                            />
+                        </div>
+
+                        <div class="filter-box">
+                            <label for="property-filter">Filter by property:</label>
+                            <select id="property-filter" aria-label="Filter by medicinal property">
+                                <option value="">Select a property...</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div id="active-filters"></div>
+
+                    <div id="results-count" class="results-count">Showing all plants</div>
+                </div>
+
                 <div class="plant-list" id="plant-list-container">
                     <!-- Plant cards will be dynamically generated here -->
                 </div>

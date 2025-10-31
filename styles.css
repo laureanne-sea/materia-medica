@@ -73,6 +73,165 @@ body {
     display: none;
 }
 
+/* Search and Filter Section */
+.search-filter-section {
+    margin-bottom: var(--spacing-lg);
+    position: relative;
+    z-index: 1;
+}
+
+.search-filter-row {
+    display: flex;
+    gap: var(--spacing-md);
+    align-items: center;
+    margin-bottom: var(--spacing-sm);
+}
+
+.search-box {
+    flex: 1;
+    min-width: 0;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 0.95em;
+    font-family: var(--font-family-serif);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    color: var(--color-text);
+    transition: border-color 0.2s;
+}
+
+.search-box input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}
+
+.filter-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.filter-box label {
+    font-size: 0.9em;
+    color: var(--color-text);
+    white-space: nowrap;
+}
+
+.filter-box select {
+    padding: 10px 12px;
+    font-size: 0.95em;
+    font-family: var(--font-family-serif);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    color: var(--color-text);
+    cursor: pointer;
+    transition: border-color 0.2s;
+    min-width: 200px;
+}
+
+.filter-box select:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}
+
+/* Active Filters Display */
+#active-filters {
+    margin-bottom: var(--spacing-sm);
+}
+
+.active-filters-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+}
+
+.filter-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background-color: rgba(90, 111, 79, 0.1);
+    border: 1px solid rgba(90, 111, 79, 0.3);
+    color: var(--color-text);
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.85em;
+}
+
+.remove-filter {
+    background: none;
+    border: none;
+    color: var(--color-text);
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 2px;
+    line-height: 1;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+    transition: opacity 0.2s;
+}
+
+.remove-filter:hover {
+    opacity: 1;
+}
+
+.clear-all-filters {
+    background: none;
+    color: var(--color-text);
+    border: 1px solid #ddd;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.85em;
+    font-family: var(--font-family-serif);
+    cursor: pointer;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+
+.clear-all-filters:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-color: #bbb;
+}
+
+/* Results Count */
+.results-count {
+    color: var(--color-placeholder);
+    font-size: 0.85em;
+    margin-bottom: var(--spacing-sm);
+}
+
+/* No Results Message */
+.no-results {
+    text-align: center;
+    padding: var(--spacing-lg);
+    color: var(--color-placeholder);
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+/* Visually Hidden (for accessibility) */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
 /* Landing page background botanicals */
 /* Note: Uses :has() pseudo-class - requires modern browsers (Firefox 121+, Safari 15.4+) */
 /* Hops botanical illustration positioned at top right corner */
@@ -250,6 +409,51 @@ body.woman-reproductive-system-page::before {
 
 /* Ensure content appears above woman reproductive system background effects */
 body.woman-reproductive-system-page .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Skin System Page Styles */
+/* Background botanical illustration for skin system */
+body.skin-system-page::after {
+    content: '';
+    position: fixed;
+    top: -50px;
+    right: -120px;
+    width: 550px;
+    height: 700px;
+    background-image: url('images/Anthemis_nobilis.jpg');
+    background-size: cover;
+    background-position: -15px -5px;
+    z-index: 0;
+    clip-path: inset(8px 8px 12px 15px);
+    opacity: 0.35;
+    mask-image: radial-gradient(ellipse 120% 100% at 30% 40%, black 40%, transparent 85%);
+    -webkit-mask-image: radial-gradient(ellipse 120% 100% at 30% 40%, black 40%, transparent 85%);
+}
+
+/* Gradient overlay for skin system page */
+body.skin-system-page::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        linear-gradient(to right,
+            rgba(245, 241, 232, 0.98) 0%,
+            rgba(245, 241, 232, 0.95) 40%,
+            rgba(245, 241, 232, 0.85) 60%,
+            rgba(245, 241, 232, 0.5) 80%,
+            rgba(245, 241, 232, 0.2) 90%,
+            rgba(245, 241, 232, 0) 100%);
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Ensure content appears above skin system background effects */
+body.skin-system-page .container {
     position: relative;
     z-index: 1;
 }
@@ -554,6 +758,7 @@ header h1 {
 .system-badge.respiratory,
 .system-badge.urinary,
 .system-badge.cardiovascular,
+.system-badge.skin,
 .system-badge.woman-reproductive,
 .system-badge.male-reproductive,
 .system-badge.hormonal {
@@ -689,6 +894,7 @@ footer {
     body:has(main .plant-list)::after,
     body.nervous-system-page::after,
     body.immune-system-page::after,
+    body.skin-system-page::after,
     body.woman-reproductive-system-page::after,
     body.male-reproductive-system-page::after {
         right: calc((100vw - 1400px) / 2 - 250px); /* Position relative to container edge */
@@ -701,6 +907,7 @@ footer {
     body:has(main .plant-list)::after,
     body.nervous-system-page::after,
     body.immune-system-page::after,
+    body.skin-system-page::after,
     body.woman-reproductive-system-page::after,
     body.male-reproductive-system-page::after {
         right: calc((100vw - 1400px) / 2 - 200px); /* Closer to content */
