@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Thumbnails
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*-backup.*
+index-backup.html
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# OneDrive specific
+~$*
+.~lock.*
+
+# Optional: Uncomment if you don't want to track these
+# clause.md
+# OPTIMIZATION-SUMMARY.md

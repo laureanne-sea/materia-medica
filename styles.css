@@ -1,0 +1,586 @@
+/* CSS Custom Properties */
+:root {
+    /* Color Palette */
+    --color-primary: #5a6f4f;
+    --color-primary-hover: #7a8f6f;
+    --color-secondary: #8b7355;
+    --color-background: #f5f1e8;
+    --color-text: #3a3a3a;
+    --color-card-bg: #fff;
+    --color-card-border: #8b7355;
+    --color-placeholder: #999;
+    --color-in-progress-bg: #f8f6f2;
+    --color-in-progress-text: #8b9784;
+    --color-in-progress-botanical: #a89888;
+
+    /* Spacing */
+    --spacing-xs: 5px;
+    --spacing-sm: 10px;
+    --spacing-md: 20px;
+    --spacing-lg: 40px;
+
+    /* Fonts */
+    --font-family-serif: 'Georgia', 'Garamond', serif;
+}
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family-serif);
+    background-color: var(--color-background);
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
+/* Skip Navigation Link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--color-primary);
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+/* Navigation placeholder - show message if JavaScript is disabled */
+#nav-placeholder {
+    min-height: 50px;
+}
+
+#nav-placeholder::before {
+    content: "Loading navigation...";
+    display: block;
+    color: var(--color-placeholder);
+    font-style: italic;
+    text-align: center;
+    padding: var(--spacing-md);
+}
+
+/* Hide loading message when navigation is injected */
+.system-nav ~ #nav-placeholder::before,
+#nav-placeholder:empty::before {
+    display: none;
+}
+
+/* Landing page background botanicals */
+/* Note: Uses :has() pseudo-class - requires modern browsers (Firefox 121+, Safari 15.4+) */
+/* Hops botanical illustration positioned at top right corner */
+body:has(main .plant-list)::after {
+    content: '';
+    position: fixed;
+    top: -50px;
+    right: -120px;
+    width: 550px;
+    height: 700px;
+    background-image: url('images/Humulus_lupulus.jpg');
+    background-size: cover;
+    background-position: -15px -5px;
+    z-index: 0;
+    clip-path: inset(8px 8px 12px 15px); /* Crops edges for better appearance */
+    opacity: 0.4; /* Subtle background effect */
+}
+
+/* Gradient overlay to fade botanical image into background */
+body:has(main .plant-list)::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        linear-gradient(to right,
+            rgba(245, 241, 232, 0.95) 0%,   /* Solid on left */
+            rgba(245, 241, 232, 0.85) 50%,  /* Fade in middle */
+            rgba(245, 241, 232, 0.6) 70%,
+            rgba(245, 241, 232, 0.3) 85%,
+            rgba(245, 241, 232, 0) 100%);   /* Transparent on right */
+    pointer-events: none; /* Allow clicks to pass through */
+    z-index: 1;
+}
+
+/* Ensure content appears above background effects */
+body:has(main .plant-list) .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Nervous System page background - Valerian botanical illustration */
+/* Positioned at top right corner, similar to hops on main page */
+body.nervous-system-page::after {
+    content: '';
+    position: fixed;
+    top: -50px;
+    right: -120px;
+    width: 550px;
+    height: 700px;
+    background-image: url('images/Valeriana_officinalis.jpg');
+    background-size: cover;
+    background-position: -15px -5px;
+    z-index: 0;
+    clip-path: inset(8px 8px 12px 15px); /* Crops edges for better appearance */
+    opacity: 0.4; /* Subtle background effect */
+}
+
+/* Gradient overlay for nervous system page */
+body.nervous-system-page::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        linear-gradient(to right,
+            rgba(245, 241, 232, 0.95) 0%,   /* Solid on left */
+            rgba(245, 241, 232, 0.85) 50%,  /* Fade in middle */
+            rgba(245, 241, 232, 0.6) 70%,
+            rgba(245, 241, 232, 0.3) 85%,
+            rgba(245, 241, 232, 0) 100%);   /* Transparent on right */
+    pointer-events: none; /* Allow clicks to pass through */
+    z-index: 1;
+}
+
+/* Ensure content appears above nervous system background effects */
+body.nervous-system-page .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* Immune System page background - Chamomile botanical illustration */
+/* Positioned at top right corner, similar to hops and valerian */
+body.immune-system-page::after {
+    content: '';
+    position: fixed;
+    top: -50px;
+    right: -120px;
+    width: 550px;
+    height: 700px;
+    background-image: url('images/Anthemis_nobilis.jpg');
+    background-size: cover;
+    background-position: -15px -5px;
+    z-index: 0;
+    clip-path: inset(8px 8px 12px 15px); /* Crops edges for better appearance */
+    opacity: 0.4; /* Subtle background effect */
+}
+
+/* Gradient overlay for immune system page */
+body.immune-system-page::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        linear-gradient(to right,
+            rgba(245, 241, 232, 0.95) 0%,   /* Solid on left */
+            rgba(245, 241, 232, 0.85) 50%,  /* Fade in middle */
+            rgba(245, 241, 232, 0.6) 70%,
+            rgba(245, 241, 232, 0.3) 85%,
+            rgba(245, 241, 232, 0) 100%);   /* Transparent on right */
+    pointer-events: none; /* Allow clicks to pass through */
+    z-index: 1;
+}
+
+/* Ensure content appears above immune system background effects */
+body.immune-system-page .container {
+    position: relative;
+    z-index: 1;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+/* Navigation appears below header */
+header {
+    text-align: center;
+    padding: var(--spacing-md) var(--spacing-md) var(--spacing-sm) var(--spacing-md);
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+header h1 {
+    font-size: 3em;
+    color: var(--color-primary);
+    margin-bottom: 0;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-style: italic;
+    color: var(--color-secondary);
+    font-size: 1.2em;
+    margin-top: var(--spacing-sm);
+}
+
+/* Plant List Styles */
+.plant-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    margin-bottom: var(--spacing-lg);
+}
+
+.plant-card {
+    background-color: var(--color-card-bg);
+    border: 2px solid var(--color-card-border);
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+}
+
+.plant-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* In progress plants - greyed out */
+.plant-card.in-progress {
+    background-color: var(--color-in-progress-bg);
+    opacity: 0.7;
+}
+
+.plant-card.in-progress h3 a {
+    color: var(--color-in-progress-text);
+}
+
+.plant-card.in-progress .botanical-name {
+    color: var(--color-in-progress-botanical);
+}
+
+.plant-card h3 {
+    margin-bottom: var(--spacing-sm);
+    color: var(--color-primary);
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+.plant-card h3 a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.plant-card h3 a:hover {
+    color: var(--color-primary-hover);
+    text-decoration: underline;
+}
+
+.botanical-name {
+    font-style: italic;
+    color: var(--color-secondary);
+    font-size: 1.1em;
+}
+
+.common-names {
+    font-size: 0.85em;
+    color: #666;
+    margin-top: 5px;
+    line-height: 1.4;
+}
+
+.common-names .lang-label {
+    font-weight: 600;
+    color: #888;
+}
+
+/* Plant Detail Page Styles */
+/* Individual plant information pages */
+.plant-detail {
+    background-color: var(--color-card-bg);
+    padding: var(--spacing-lg);
+    border: 2px solid var(--color-card-border);
+    border-radius: 5px;
+    margin-bottom: var(--spacing-lg);
+}
+
+.plant-detail h1 {
+    color: #5a6f4f;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+/* Botanical illustration with caption */
+/* Floats to right on desktop, centered on mobile */
+.plant-illustration {
+    float: right;
+    margin: 0 0 var(--spacing-md) 30px;
+    max-width: 350px;
+    border: 1px solid var(--color-card-border);
+    padding: var(--spacing-sm);
+    background-color: #fafaf8;
+}
+
+.plant-illustration img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.plant-illustration figcaption {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #8b7355;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section.clear {
+    clear: both;
+}
+
+.section h2 {
+    color: #5a6f4f;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-weight: normal;
+    border-bottom: 1px solid #8b7355;
+}
+
+.section:not(.clear) h2 {
+    display: inline-block;
+    min-width: 50%;
+}
+
+.section.clear h2 {
+    display: block;
+}
+
+.section h3 {
+    color: #8b7355;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.section p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.field-label {
+    font-weight: bold;
+    color: #5a6f4f;
+}
+
+.placeholder {
+    color: #999;
+    font-style: italic;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #5a6f4f;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* System Navigation Styles */
+.system-nav {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px double var(--color-secondary);
+}
+
+.system-nav a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 5px 0;
+    color: #8b7355;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.2s;
+    border-bottom: 2px solid transparent;
+}
+
+.system-nav a:hover {
+    color: #5a6f4f;
+}
+
+.system-nav a.active {
+    color: #5a6f4f;
+    border-bottom: 2px solid #5a6f4f;
+}
+
+/* System Badge Styles */
+.system-badge {
+    display: inline;
+    font-size: 0.9em;
+    color: var(--color-secondary);
+    font-style: italic;
+}
+
+.system-badge::before {
+    content: "• ";
+    color: var(--color-secondary);
+}
+
+.system-badge.nervous,
+.system-badge.immune,
+.system-badge.digestive,
+.system-badge.respiratory,
+.system-badge.urinary,
+.system-badge.cardiovascular,
+.system-badge.hormonal {
+    background-color: transparent;
+    color: var(--color-secondary);
+}
+
+/* Visually hidden text for screen readers */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 3px double #8b7355;
+    margin-top: 40px;
+    color: #8b7355;
+    font-style: italic;
+}
+
+/* Responsive Design */
+
+/* Small phones */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8em;
+        letter-spacing: 1px;
+    }
+
+    .subtitle {
+        font-size: 1em;
+    }
+
+    .plant-list {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .plant-card {
+        padding: 15px;
+    }
+
+    .plant-card h3 {
+        font-size: 1.5em;
+    }
+
+    .system-nav a {
+        display: block;
+        margin: 8px 0;
+        padding: 12px;
+        border-radius: 4px;
+        background-color: rgba(245, 241, 232, 0.5);
+    }
+
+    /* Fix text justification on mobile */
+    .section p {
+        text-align: left;
+    }
+
+    .plant-detail {
+        padding: 20px;
+    }
+}
+
+/* Tablets portrait */
+@media (min-width: 481px) and (max-width: 768px) {
+    .plant-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .plant-illustration {
+        float: none;
+        margin: 0 auto 20px;
+        display: block;
+        max-width: 300px;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    .system-nav a {
+        display: inline-block;
+        margin: 8px 10px;
+        padding: 10px;
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    /* Fix text justification on mobile */
+    .section p {
+        text-align: left;
+    }
+}
+
+/* Tablets landscape and small desktops */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .plant-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    header h1 {
+        font-size: 2.8em;
+    }
+
+    .container {
+        padding: 30px;
+    }
+}
+
+/* Large screens */
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1400px;
+    }
+
+    .plant-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

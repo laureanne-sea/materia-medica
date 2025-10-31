@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#5a6f4f" stroke="#8b7355" stroke-width="2"/>
+  
+  <!-- Leaf/Plant design -->
+  <path d="M 50 25 Q 35 40, 35 55 Q 35 65, 45 70" 
+        fill="none" stroke="#f5f1e8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 50 25 Q 65 40, 65 55 Q 65 65, 55 70" 
+        fill="none" stroke="#f5f1e8" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Center stem -->
+  <line x1="50" y1="25" x2="50" y2="75" 
+        stroke="#f5f1e8" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Small leaves -->
+  <ellipse cx="42" cy="45" rx="8" ry="4" fill="#f5f1e8" transform="rotate(-30 42 45)"/>
+  <ellipse cx="58" cy="45" rx="8" ry="4" fill="#f5f1e8" transform="rotate(30 58 45)"/>
+  <ellipse cx="40" cy="60" rx="8" ry="4" fill="#f5f1e8" transform="rotate(-40 40 60)"/>
+  <ellipse cx="60" cy="60" rx="8" ry="4" fill="#f5f1e8" transform="rotate(40 60 60)"/>
+</svg>
