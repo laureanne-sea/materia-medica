@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Medicinal plants for endocrine system support including adaptogens, thyroid regulating herbs, adrenal tonics, and blood sugar regulating plants. Natural remedies for hormonal balance.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Endocrine System Plants - Materia Medica">
+    <meta property="og:description" content="Medicinal plants for endocrine system support including adaptogens, thyroid regulating herbs, and adrenal tonics.">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Endocrine System Plants - Materia Medica">
+    <meta name="twitter:description" content="Medicinal plants for endocrine system support including adaptogens, thyroid regulating herbs, and adrenal tonics.">
+
+    <title>Endocrine System - Materia Medica</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+    <script src="navigation.js" defer></script>
+    <script src="plants-data.js"></script>
+    <script src="plants-renderer.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            window.PlantsRenderer.renderSystemPage('endocrine');
+        });
+    </script>
+</head>
+<body class="endocrine-system-page">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <div class="container">
+
+        <header>
+            <h1>Materia Medica</h1>
+            <p class="subtitle">A Collection of Medicinal Plants</p>
+        </header>
+
+        <div id="nav-placeholder"></div>
+
+        <div class="plant-list" id="plant-list-container">
+            <!-- Plant cards will be dynamically generated here -->
+        </div>
+
+        <footer>
+            <p>Your Personal Materia Medica Collection</p>
+        </footer>
+    </div>
+</body>
+</html>

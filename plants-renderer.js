@@ -15,6 +15,7 @@
         respiratory: { label: 'Respiratory System', class: 'respiratory' },
         urinary: { label: 'Urinary System', class: 'urinary' },
         cardiovascular: { label: 'Cardiovascular System', class: 'cardiovascular' },
+        endocrine: { label: 'Endocrine System', class: 'endocrine' },
         skin: { label: 'Skin System', class: 'skin' },
         'woman-reproductive': { label: 'Woman Reproductive System', class: 'woman-reproductive' },
         'male-reproductive': { label: 'Male Reproductive System', class: 'male-reproductive' }
