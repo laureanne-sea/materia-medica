@@ -1145,4 +1145,976 @@ window.PLANTS_DATA = [
     "status": "in-progress",
     "fileSlug": "fenugreek"
   }
+,
+  {
+    "commonName": "Andrographis",
+    "botanicalName": "Andrographis paniculata",
+    "danishName": "Andrographis",
+    "frenchName": "Andrographis",
+    "systems": [
+      "immune",
+      "digestive",
+      "respiratory"
+    ],
+    "properties": [
+      "Antibacterial",
+      "Anti-inflammatory (general)",
+      "Antimicrobial",
+      "Antiviral (internal)",
+      "Bitter tonic",
+      "Choleretic",
+      "Hepatoprotective",
+      "Immunomodulating"
+    ],
+    "status": "in-progress",
+    "fileSlug": "andrographis"
+  },
+  {
+    "commonName": "Ashwagandha",
+    "botanicalName": "Asparagus racemosa",
+    "danishName": "Ashwagandha",
+    "frenchName": "Ashwagandha",
+    "systems": [
+      "nervous",
+      "hormonal",
+      "woman-reproductive"
+    ],
+    "properties": [
+      "Adaptogens",
+      "Female tonic",
+      "Nervine tonic",
+      "Sedative",
+      "Uterine tonic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "ashwagandha"
+  },
+  {
+    "commonName": "Bacopa",
+    "botanicalName": "Bacopa monnieri",
+    "danishName": "Bacopa",
+    "frenchName": "Bacopa",
+    "systems": [
+      "nervous"
+    ],
+    "properties": [
+      "Adaptogens",
+      "Brain tonic",
+      "Nervine tonic",
+      "Memory enhancing",
+      "Antioxidant"
+    ],
+    "status": "in-progress",
+    "fileSlug": "bacopa"
+  },
+  {
+    "commonName": "Codonopsis",
+    "botanicalName": "Codonopsis pilosula",
+    "danishName": "Codonopsis",
+    "frenchName": "Codonopsis",
+    "systems": [
+      "immune",
+      "digestive"
+    ],
+    "properties": [
+      "Adaptogens",
+      "Immunomodulating",
+      "Lung tonic",
+      "Tonic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "codonopsis"
+  },
+  {
+    "commonName": "Rhodiola",
+    "botanicalName": "Rhodiola rosea",
+    "danishName": "Rhodiola",
+    "frenchName": "Rhodiola",
+    "systems": [
+      "nervous",
+      "immune",
+      "cardiovascular"
+    ],
+    "properties": [
+      "Adaptogens",
+      "Adrenal tonic",
+      "Antidepressant",
+      "Antioxidant",
+      "Cardioprotective",
+      "Immunomodulating",
+      "Nervine tonic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "rhodiola"
+  },
+  {
+    "commonName": "Oat Straw",
+    "botanicalName": "Avena sativa",
+    "danishName": "Havre",
+    "frenchName": "Avoine",
+    "systems": [
+      "nervous",
+      "cardiovascular"
+    ],
+    "properties": [
+      "Nervine tonic",
+      "Sedative",
+      "Tonic",
+      "Cholesterol lowering"
+    ],
+    "status": "in-progress",
+    "fileSlug": "oat-straw"
+  },
+  {
+    "commonName": "Cat's Claw",
+    "botanicalName": "Uncaria tomentosa",
+    "danishName": "Katteklo",
+    "frenchName": "Griffe de chat",
+    "systems": [
+      "immune",
+      "digestive"
+    ],
+    "properties": [
+      "Anti-inflammatory (general)",
+      "Antimicrobial",
+      "Antioxidant",
+      "Antiviral (internal)",
+      "Immunomodulating"
+    ],
+    "status": "in-progress",
+    "fileSlug": "cats-claw"
+  },
+  {
+    "commonName": "Hawthorn",
+    "botanicalName": "Crataegus arter",
+    "danishName": "Hvidtjørn",
+    "frenchName": "Aubépine",
+    "systems": [
+      "cardiovascular"
+    ],
+    "properties": [
+      "Antiarrhythmic",
+      "Antioxidant",
+      "Blood pressure regulating",
+      "Cardioprotective",
+      "Heart tonic",
+      "Vasodilator"
+    ],
+    "status": "in-progress",
+    "fileSlug": "hawthorn"
+  },
+  {
+    "commonName": "Linden",
+    "botanicalName": "Tilia arter",
+    "danishName": "Lind",
+    "frenchName": "Tilleul",
+    "systems": [
+      "nervous",
+      "cardiovascular"
+    ],
+    "properties": [
+      "Antispasmodic",
+      "Diaphoretic",
+      "Nervine tonic",
+      "Sedative",
+      "Vasodilator"
+    ],
+    "status": "in-progress",
+    "fileSlug": "linden"
+  },
+  {
+    "commonName": "Bugleweed",
+    "botanicalName": "Lycopus virginicus",
+    "danishName": "Bugleweed",
+    "frenchName": "Bugleweed",
+    "systems": [
+      "cardiovascular",
+      "hormonal"
+    ],
+    "properties": [
+      "Antithyroid",
+      "Heart sedative",
+      "Thyroid regulating"
+    ],
+    "status": "in-progress",
+    "fileSlug": "bugleweed"
+  },
+  {
+    "commonName": "Butcher's Broom",
+    "botanicalName": "Ruscus aculeatus",
+    "danishName": "Musetorn",
+    "frenchName": "Fragon",
+    "systems": [
+      "cardiovascular"
+    ],
+    "properties": [
+      "Anti-inflammatory (circulatory)",
+      "Vasoconstrictor",
+      "Vein tonic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "butchers-broom"
+  },
+  {
+    "commonName": "White Willow",
+    "botanicalName": "Salix alba",
+    "danishName": "Hvid pil",
+    "frenchName": "Saule blanc",
+    "systems": [
+      "cardiovascular",
+      "digestive"
+    ],
+    "properties": [
+      "Analgesic",
+      "Anti-inflammatory (general)",
+      "Antirheumatic",
+      "Antipyretic",
+      "Astringent"
+    ],
+    "status": "in-progress",
+    "fileSlug": "white-willow"
+  },
+  {
+    "commonName": "Celery Seed",
+    "botanicalName": "Apium graveolens",
+    "danishName": "Selleri",
+    "frenchName": "Céleri",
+    "systems": [
+      "urinary",
+      "digestive"
+    ],
+    "properties": [
+      "Anti-inflammatory (urinary)",
+      "Antilithic",
+      "Antirheumatic",
+      "Carminative",
+      "Diuretic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "celery-seed"
+  },
+  {
+    "commonName": "Couch Grass",
+    "botanicalName": "Agropyron repens",
+    "danishName": "Kvik",
+    "frenchName": "Chiendent",
+    "systems": [
+      "urinary"
+    ],
+    "properties": [
+      "Antimicrobial",
+      "Demulcent",
+      "Diuretic",
+      "Urinary antiseptic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "couch-grass"
+  },
+  {
+    "commonName": "Bupleurum",
+    "botanicalName": "Bupleurum falcatum",
+    "danishName": "Bupleurum",
+    "frenchName": "Buplèvre",
+    "systems": [
+      "digestive",
+      "immune"
+    ],
+    "properties": [
+      "Anti-inflammatory (liver)",
+      "Choleretic",
+      "Hepatoprotective",
+      "Immunomodulating"
+    ],
+    "status": "in-progress",
+    "fileSlug": "bupleurum"
+  },
+  {
+    "commonName": "Phyllanthus",
+    "botanicalName": "Phyllanthus amarus",
+    "danishName": "Phyllanthus",
+    "frenchName": "Phyllanthus",
+    "systems": [
+      "digestive",
+      "urinary"
+    ],
+    "properties": [
+      "Antiviral (internal)",
+      "Diuretic",
+      "Hepatoprotective",
+      "Urinary antiseptic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "phyllanthus"
+  },
+  {
+    "commonName": "Picrorrhiza",
+    "botanicalName": "Picrorrhiza kurroa",
+    "danishName": "Picrorrhiza",
+    "frenchName": "Picrorrhiza",
+    "systems": [
+      "digestive",
+      "immune"
+    ],
+    "properties": [
+      "Bitter tonic",
+      "Choleretic",
+      "Hepatoprotective",
+      "Immunomodulating"
+    ],
+    "status": "in-progress",
+    "fileSlug": "picrorrhiza"
+  },
+  {
+    "commonName": "Wild Cherry",
+    "botanicalName": "Prunus serotina",
+    "danishName": "Virginsk kirsebær",
+    "frenchName": "Cerisier tardif",
+    "systems": [
+      "respiratory"
+    ],
+    "properties": [
+      "Antitussive",
+      "Astringent",
+      "Bronchial antispasmodic",
+      "Expectorant",
+      "Sedative"
+    ],
+    "status": "in-progress",
+    "fileSlug": "wild-cherry"
+  },
+  {
+    "commonName": "Boswellia",
+    "botanicalName": "Boswellia serrata",
+    "danishName": "Røgelsestræ",
+    "frenchName": "Boswellia",
+    "systems": [
+      "immune",
+      "digestive"
+    ],
+    "properties": [
+      "Anti-inflammatory (general)",
+      "Anti-inflammatory (musculoskeletal)",
+      "Anti-inflammatory (digestive)",
+      "Antirheumatic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "boswellia"
+  },
+  {
+    "commonName": "Myrrh",
+    "botanicalName": "Commiphora molmol",
+    "danishName": "Myrra",
+    "frenchName": "Myrrhe",
+    "systems": [
+      "immune",
+      "digestive",
+      "skin"
+    ],
+    "properties": [
+      "Antimicrobial",
+      "Antiseptic",
+      "Astringent",
+      "Anti-inflammatory (general)",
+      "Vulnerary"
+    ],
+    "status": "in-progress",
+    "fileSlug": "myrrh"
+  },
+  {
+    "commonName": "Devil's Claw",
+    "botanicalName": "Harpagophytum procumbens",
+    "danishName": "Djævelsklo",
+    "frenchName": "Griffe du diable",
+    "systems": [
+      "digestive",
+      "immune"
+    ],
+    "properties": [
+      "Analgesic",
+      "Anti-inflammatory (musculoskeletal)",
+      "Antirheumatic",
+      "Bitter tonic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "devils-claw"
+  },
+  {
+    "commonName": "Guaiacum",
+    "botanicalName": "Guaiacum officinalis",
+    "danishName": "Guajak",
+    "frenchName": "Gaïac",
+    "systems": [
+      "immune"
+    ],
+    "properties": [
+      "Anti-inflammatory (general)",
+      "Antirheumatic",
+      "Diaphoretic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "guaiacum"
+  },
+  {
+    "commonName": "White Peony",
+    "botanicalName": "Paeonia lactiflora",
+    "danishName": "Hvid pæon",
+    "frenchName": "Pivoine blanche",
+    "systems": [
+      "woman-reproductive",
+      "immune"
+    ],
+    "properties": [
+      "Analgesic",
+      "Anti-inflammatory (general)",
+      "Antispasmodic",
+      "Blood building",
+      "Female tonic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "white-peony"
+  },
+  {
+    "commonName": "Tree Peony",
+    "botanicalName": "Paeonia suffructicosa",
+    "danishName": "Træpæon",
+    "frenchName": "Pivoine arbustive",
+    "systems": [
+      "woman-reproductive",
+      "immune"
+    ],
+    "properties": [
+      "Anti-inflammatory (general)",
+      "Blood purifying",
+      "Female tonic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "tree-peony"
+  },
+  {
+    "commonName": "Propolis",
+    "botanicalName": "Propolis",
+    "danishName": "Propolis",
+    "frenchName": "Propolis",
+    "systems": [
+      "immune",
+      "skin"
+    ],
+    "properties": [
+      "Antibacterial",
+      "Antimicrobial",
+      "Antioxidant",
+      "Antiviral (internal)",
+      "Immunomodulating",
+      "Vulnerary"
+    ],
+    "status": "in-progress",
+    "fileSlug": "propolis"
+  },
+  {
+    "commonName": "Pine Bark Extract",
+    "botanicalName": "Pinus pinaster",
+    "danishName": "Skovfyr",
+    "frenchName": "Pin maritime",
+    "systems": [
+      "cardiovascular",
+      "immune"
+    ],
+    "properties": [
+      "Anti-inflammatory (general)",
+      "Antioxidant",
+      "Circulatory stimulant",
+      "Vein tonic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "pine-bark"
+  },
+  {
+    "commonName": "Grindelia",
+    "botanicalName": "Grindelia camporum",
+    "danishName": "Grindelia",
+    "frenchName": "Grindélie",
+    "systems": [
+      "respiratory"
+    ],
+    "properties": [
+      "Antispasmodic",
+      "Bronchial antispasmodic",
+      "Expectorant",
+      "Mucous reducing (lower respiratory)"
+    ],
+    "status": "in-progress",
+    "fileSlug": "grindelia"
+  },
+  {
+    "commonName": "Euphorbia",
+    "botanicalName": "Euphorbia hirta",
+    "danishName": "Euphorbia",
+    "frenchName": "Euphorbe",
+    "systems": [
+      "respiratory"
+    ],
+    "properties": [
+      "Antispasmodic",
+      "Bronchial antispasmodic",
+      "Expectorant"
+    ],
+    "status": "in-progress",
+    "fileSlug": "euphorbia"
+  },
+  {
+    "commonName": "Eyebright",
+    "botanicalName": "Euphrasia officinalis",
+    "danishName": "Øjentrøst",
+    "frenchName": "Euphraise",
+    "systems": [
+      "immune"
+    ],
+    "properties": [
+      "Anti-inflammatory (general)",
+      "Astringent"
+    ],
+    "status": "in-progress",
+    "fileSlug": "eyebright"
+  },
+  {
+    "commonName": "Thuja",
+    "botanicalName": "Thuja officinalis",
+    "danishName": "Thuja",
+    "frenchName": "Thuya",
+    "systems": [
+      "immune",
+      "respiratory"
+    ],
+    "properties": [
+      "Antimicrobial",
+      "Antiviral (topical)",
+      "Diuretic",
+      "Expectorant"
+    ],
+    "status": "in-progress",
+    "fileSlug": "thuja"
+  },
+  {
+    "commonName": "Horsetail",
+    "botanicalName": "Equisetum arvense",
+    "danishName": "Ager-padderok",
+    "frenchName": "Prêle des champs",
+    "systems": [
+      "urinary",
+      "skin"
+    ],
+    "properties": [
+      "Astringent",
+      "Connective tissue strengthening",
+      "Diuretic",
+      "Hemostatic",
+      "Vulnerary"
+    ],
+    "status": "in-progress",
+    "fileSlug": "horsetail"
+  },
+  {
+    "commonName": "Blue Flag",
+    "botanicalName": "Iris versicolor",
+    "danishName": "Iris",
+    "frenchName": "Iris versicolore",
+    "systems": [
+      "digestive"
+    ],
+    "properties": [
+      "Blood purifying",
+      "Choleretic",
+      "Laxative",
+      "Lymphatic stimulant"
+    ],
+    "status": "in-progress",
+    "fileSlug": "blue-flag"
+  },
+  {
+    "commonName": "Cranberry",
+    "botanicalName": "Vaccinium macrocarpon",
+    "danishName": "Tranebær",
+    "frenchName": "Canneberge",
+    "systems": [
+      "urinary"
+    ],
+    "properties": [
+      "Urinary antiseptic",
+      "Antioxidant"
+    ],
+    "status": "in-progress",
+    "fileSlug": "cranberry"
+  },
+  {
+    "commonName": "Goldenrod",
+    "botanicalName": "Solidago virgaurea",
+    "danishName": "Gyldenris",
+    "frenchName": "Verge d'or",
+    "systems": [
+      "urinary",
+      "respiratory"
+    ],
+    "properties": [
+      "Anti-inflammatory (urinary)",
+      "Antimicrobial",
+      "Astringent",
+      "Diuretic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "goldenrod"
+  },
+  {
+    "commonName": "Shepherd's Purse",
+    "botanicalName": "Capsella bursa-pastoris",
+    "danishName": "Hyrdetaske",
+    "frenchName": "Bourse-à-pasteur",
+    "systems": [
+      "woman-reproductive"
+    ],
+    "properties": [
+      "Astringent",
+      "Hemostatic",
+      "Uterine contractor"
+    ],
+    "status": "in-progress",
+    "fileSlug": "shepherds-purse"
+  },
+  {
+    "commonName": "Crataeva",
+    "botanicalName": "Crataeva nurvala",
+    "danishName": "Crataeva",
+    "frenchName": "Crataeva",
+    "systems": [
+      "urinary"
+    ],
+    "properties": [
+      "Anti-inflammatory (urinary)",
+      "Antilithic",
+      "Diuretic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "crataeva"
+  },
+  {
+    "commonName": "Rehmannia",
+    "botanicalName": "Rehmannia glutinosa",
+    "danishName": "Rehmannia",
+    "frenchName": "Rehmannia",
+    "systems": [
+      "woman-reproductive",
+      "hormonal"
+    ],
+    "properties": [
+      "Adrenal tonic",
+      "Blood building",
+      "Female tonic",
+      "Kidney tonic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "rehmannia"
+  },
+  {
+    "commonName": "Birch",
+    "botanicalName": "Betula pendula",
+    "danishName": "Vortebirk",
+    "frenchName": "Bouleau",
+    "systems": [
+      "urinary",
+      "skin"
+    ],
+    "properties": [
+      "Anti-inflammatory (urinary)",
+      "Diuretic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "birch"
+  },
+  {
+    "commonName": "Heartsease",
+    "botanicalName": "Viola tricolor",
+    "danishName": "Vild stedmoder",
+    "frenchName": "Pensée sauvage",
+    "systems": [
+      "skin",
+      "respiratory"
+    ],
+    "properties": [
+      "Anti-inflammatory (topical)",
+      "Blood purifying",
+      "Expectorant"
+    ],
+    "status": "in-progress",
+    "fileSlug": "heartsease"
+  },
+  {
+    "commonName": "Sweet Violet",
+    "botanicalName": "Viola odoratar",
+    "danishName": "Marts-viol",
+    "frenchName": "Violette odorante",
+    "systems": [
+      "respiratory",
+      "skin"
+    ],
+    "properties": [
+      "Anti-inflammatory (respiratory)",
+      "Expectorant",
+      "Lymphatic stimulant"
+    ],
+    "status": "in-progress",
+    "fileSlug": "sweet-violet"
+  },
+  {
+    "commonName": "Feverfew",
+    "botanicalName": "Tanacetum parthenium",
+    "danishName": "Matrem",
+    "frenchName": "Grande camomille",
+    "systems": [
+      "nervous",
+      "cardiovascular"
+    ],
+    "properties": [
+      "Analgesic",
+      "Anti-inflammatory (general)",
+      "Antiplatelet",
+      "Vasodilator"
+    ],
+    "status": "in-progress",
+    "fileSlug": "feverfew"
+  },
+  {
+    "commonName": "Vervain",
+    "botanicalName": "Verbena officinalis",
+    "danishName": "Læge-jernurt",
+    "frenchName": "Verveine",
+    "systems": [
+      "nervous",
+      "digestive"
+    ],
+    "properties": [
+      "Antispasmodic",
+      "Bitter tonic",
+      "Nervine tonic",
+      "Sedative"
+    ],
+    "status": "in-progress",
+    "fileSlug": "vervain"
+  },
+  {
+    "commonName": "Jujube",
+    "botanicalName": "Zizyphus jujuba",
+    "danishName": "Jujube",
+    "frenchName": "Jujubier",
+    "systems": [
+      "nervous",
+      "digestive"
+    ],
+    "properties": [
+      "Nervine tonic",
+      "Sedative",
+      "Tonic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "jujube"
+  },
+  {
+    "commonName": "Coleus",
+    "botanicalName": "Coleus forskohlii",
+    "danishName": "Coleus",
+    "frenchName": "Coléus",
+    "systems": [
+      "cardiovascular",
+      "respiratory"
+    ],
+    "properties": [
+      "Bronchial antispasmodic",
+      "Vasodilator",
+      "Blood pressure lowering"
+    ],
+    "status": "in-progress",
+    "fileSlug": "coleus"
+  },
+  {
+    "commonName": "Chaga",
+    "botanicalName": "Inonotus obliquus",
+    "danishName": "Chaga",
+    "frenchName": "Chaga",
+    "systems": [
+      "immune"
+    ],
+    "properties": [
+      "Adaptogens",
+      "Antioxidant",
+      "Immunomodulating"
+    ],
+    "status": "in-progress",
+    "fileSlug": "chaga"
+  },
+  {
+    "commonName": "Lion's Mane",
+    "botanicalName": "Hericium erinaceus",
+    "danishName": "Pindsvineporesvamp",
+    "frenchName": "Hydne hérisson",
+    "systems": [
+      "nervous",
+      "immune",
+      "digestive"
+    ],
+    "properties": [
+      "Brain tonic",
+      "Immunomodulating",
+      "Nervine tonic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "lions-mane"
+  },
+  {
+    "commonName": "Cordyceps",
+    "botanicalName": "Ophiocordyceps militaris",
+    "danishName": "Cordyceps",
+    "frenchName": "Cordyceps",
+    "systems": [
+      "immune",
+      "respiratory"
+    ],
+    "properties": [
+      "Adaptogens",
+      "Immunomodulating",
+      "Lung tonic",
+      "Tonic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "cordyceps"
+  },
+  {
+    "commonName": "Golden Oyster Mushroom",
+    "botanicalName": "Pleurotus citrinopileatus",
+    "danishName": "Gul østershat",
+    "frenchName": "Pleurote jaune",
+    "systems": [
+      "immune"
+    ],
+    "properties": [
+      "Antioxidant",
+      "Immunomodulating"
+    ],
+    "status": "in-progress",
+    "fileSlug": "golden-oyster"
+  },
+  {
+    "commonName": "Green Tea",
+    "botanicalName": "Camellia sinensis",
+    "danishName": "Grøn te",
+    "frenchName": "Thé vert",
+    "systems": [
+      "cardiovascular",
+      "immune"
+    ],
+    "properties": [
+      "Antioxidant",
+      "Cholesterol lowering",
+      "Weight reducing"
+    ],
+    "status": "in-progress",
+    "fileSlug": "green-tea"
+  },
+  {
+    "commonName": "Bladderwrack",
+    "botanicalName": "Fucus vesiculosus",
+    "danishName": "Blæretang",
+    "frenchName": "Varech vésiculeux",
+    "systems": [
+      "hormonal"
+    ],
+    "properties": [
+      "Metabolic stimulant",
+      "Thyroid stimulating",
+      "Weight reducing"
+    ],
+    "status": "in-progress",
+    "fileSlug": "bladderwrack"
+  },
+  {
+    "commonName": "Goat's Rue",
+    "botanicalName": "Galega officinalis",
+    "danishName": "Læge-stregbælg",
+    "frenchName": "Galéga",
+    "systems": [
+      "digestive",
+      "woman-reproductive"
+    ],
+    "properties": [
+      "Blood sugar regulating",
+      "Galactagogue"
+    ],
+    "status": "in-progress",
+    "fileSlug": "goats-rue"
+  },
+  {
+    "commonName": "Indian Sarsaparilla",
+    "botanicalName": "Hemidesmus indicus",
+    "danishName": "Indisk sarsaparil",
+    "frenchName": "Salsepareille indienne",
+    "systems": [
+      "digestive",
+      "skin"
+    ],
+    "properties": [
+      "Blood purifying",
+      "Diaphoretic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "indian-sarsaparilla"
+  },
+  {
+    "commonName": "Purple Willow",
+    "botanicalName": "Salix purpurea",
+    "danishName": "Purpurpil",
+    "frenchName": "Saule pourpre",
+    "systems": [
+      "cardiovascular"
+    ],
+    "properties": [
+      "Analgesic",
+      "Anti-inflammatory (general)",
+      "Antipyretic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "purple-willow"
+  },
+  {
+    "commonName": "Bilberry",
+    "botanicalName": "Vaccinium myrtillus",
+    "danishName": "Blåbær",
+    "frenchName": "Myrtille",
+    "systems": [
+      "cardiovascular",
+      "digestive"
+    ],
+    "properties": [
+      "Antioxidant",
+      "Astringent",
+      "Circulatory stimulant",
+      "Vein tonic"
+    ],
+    "status": "in-progress",
+    "fileSlug": "bilberry"
+  },
+  {
+    "commonName": "Cacao",
+    "botanicalName": "Theobroma cacao",
+    "danishName": "Kakao",
+    "frenchName": "Cacao",
+    "systems": [
+      "nervous",
+      "cardiovascular"
+    ],
+    "properties": [
+      "Antidepressant",
+      "Antioxidant",
+      "Cardioprotective",
+      "Vasodilator"
+    ],
+    "status": "in-progress",
+    "fileSlug": "cacao"
+  }
 ];
