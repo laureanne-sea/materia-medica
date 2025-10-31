@@ -760,8 +760,7 @@ header h1 {
 .system-badge.cardiovascular,
 .system-badge.skin,
 .system-badge.woman-reproductive,
-.system-badge.male-reproductive,
-.system-badge.hormonal {
+.system-badge.male-reproductive {
     background-color: transparent;
     color: var(--color-secondary);
 }

@@ -17,8 +17,7 @@
         { href: 'cardiovascular-system.html', label: 'Cardiovascular System', id: 'cardiovascular' },
         { href: 'skin-system.html', label: 'Skin System', id: 'skin' },
         { href: 'woman-reproductive-system.html', label: 'Woman Reproductive', id: 'woman-reproductive' },
-        { href: 'male-reproductive-system.html', label: 'Male Reproductive', id: 'male-reproductive' },
-        { href: 'hormonal-system.html', label: 'Hormonal System', id: 'hormonal' }
+        { href: 'male-reproductive-system.html', label: 'Male Reproductive', id: 'male-reproductive' }
     ];
 
     /**

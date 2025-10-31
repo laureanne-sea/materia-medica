@@ -9,7 +9,6 @@ window.PLANTS_DATA = [
     "commonName": "Buchu",
     "botanicalName": "Agathosma betulina",
     "family": "Rutaceae (Rue family)",
-    "family": "Rutaceae (Rue family)",
     "danishName": "Buchu",
     "frenchName": "Buchu",
     "systems": ["urinary"],
@@ -21,7 +20,6 @@ window.PLANTS_DATA = [
     "commonName": "Burdock",
     "botanicalName": "Arctium lappa",
     "family": "Asteraceae (Daisy family)",
-    "family": "Asteraceae (Daisy family)",
     "danishName": "Burre",
     "frenchName": "Bardane",
     "systems": ["digestive"],
@@ -32,7 +30,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Catnip",
     "botanicalName": "Nepeta cataria",
-    "family": "Lamiaceae (Mint family)",
     "family": "Lamiaceae (Mint family)",
     "danishName": "Katteurt",
     "frenchName": "Cataire, Herbe aux chats",
@@ -89,7 +86,6 @@ window.PLANTS_DATA = [
     "commonName": "Cinnamon",
     "botanicalName": "Cinnamomum zeylanicum",
     "family": "Lauraceae (Laurel family)",
-    "family": "Lauraceae (Laurel family)",
     "danishName": null,
     "frenchName": null,
     "systems": ["cardiovascular", "skin"],
@@ -100,7 +96,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Cleavers",
     "botanicalName": "Galium aparine",
-    "family": "Rubiaceae (Coffee family)",
     "family": "Rubiaceae (Coffee family)",
     "danishName": "Burre-snerre",
     "frenchName": "Gaillet gratteron",
@@ -123,7 +118,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Coltsfoot",
     "botanicalName": "Tussilago farfara",
-    "family": "Asteraceae (Daisy family)",
     "family": "Asteraceae (Daisy family)",
     "danishName": "Følfod",
     "frenchName": "Tussilage",
@@ -158,7 +152,6 @@ window.PLANTS_DATA = [
     "commonName": "Dandelion",
     "botanicalName": "Taraxacum officinale",
     "family": "Asteraceae (Daisy family)",
-    "family": "Asteraceae (Daisy family)",
     "danishName": "Mælkebøtte",
     "frenchName": "Pissenlit",
     "systems": ["digestive", "urinary"],
@@ -180,7 +173,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Elecampane",
     "botanicalName": "Inula helenium",
-    "family": "Asteraceae (Daisy family)",
     "family": "Asteraceae (Daisy family)",
     "danishName": "Alant",
     "frenchName": "Aunée",
@@ -215,7 +207,6 @@ window.PLANTS_DATA = [
     "commonName": "Goldenseal",
     "botanicalName": "Hydrastis canadensis",
     "family": "Ranunculaceae (Buttercup family)",
-    "family": "Ranunculaceae (Buttercup family)",
     "danishName": "Guldsegl",
     "frenchName": "Hydraste du Canada",
     "systems": ["digestive"],
@@ -248,7 +239,6 @@ window.PLANTS_DATA = [
     "commonName": "Ginger",
     "botanicalName": "Zingiber officinale",
     "family": "Zingiberaceae (Ginger family)",
-    "family": "Zingiberaceae (Ginger family)",
     "danishName": null,
     "frenchName": null,
     "systems": ["cardiovascular", "woman-reproductive"],
@@ -259,7 +249,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Ginkgo",
     "botanicalName": "Ginkgo biloba",
-    "family": "Ginkgoaceae (Ginkgo family)",
     "family": "Ginkgoaceae (Ginkgo family)",
     "danishName": null,
     "frenchName": null,
@@ -272,7 +261,6 @@ window.PLANTS_DATA = [
     "commonName": "Ginseng",
     "botanicalName": "Panax and related species",
     "family": "Araliaceae (Ginseng family)",
-    "family": "Araliaceae (Ginseng family)",
     "danishName": null,
     "frenchName": null,
     "systems": ["cardiovascular", "woman-reproductive", "male-reproductive", "immune"],
@@ -283,7 +271,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Hops",
     "botanicalName": "Humulus lupulus",
-    "family": "Cannabaceae (Hemp family)",
     "family": "Cannabaceae (Hemp family)",
     "danishName": "Humle",
     "frenchName": "Houblon",
@@ -326,7 +313,6 @@ window.PLANTS_DATA = [
     "commonName": "Licorice",
     "botanicalName": "Glycyrrhiza glabra",
     "family": "Fabaceae (Legume family)",
-    "family": "Fabaceae (Legume family)",
     "danishName": "Lakrids",
     "frenchName": "Réglisse",
     "systems": ["respiratory", "woman-reproductive", "male-reproductive"],
@@ -337,7 +323,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Lobelia",
     "botanicalName": "Lobelia inflata",
-    "family": "Campanulaceae (Bellflower family)",
     "family": "Campanulaceae (Bellflower family)",
     "danishName": "Oppustet lobelia",
     "frenchName": "Lobélie gonflée, Tabac indien",
@@ -360,7 +345,6 @@ window.PLANTS_DATA = [
     "commonName": "Mullein",
     "botanicalName": "Verbascum thapsus",
     "family": "Scrophulariaceae (Figwort family)",
-    "family": "Scrophulariaceae (Figwort family)",
     "danishName": "Kongelys",
     "frenchName": "Molène",
     "systems": ["respiratory", "skin"],
@@ -371,7 +355,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Nettles",
     "botanicalName": "Urtica dioica",
-    "family": "Urticaceae (Nettle family)",
     "family": "Urticaceae (Nettle family)",
     "danishName": "Brændenælde",
     "frenchName": "Ortie",
@@ -403,7 +386,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Peppermint",
     "botanicalName": "Mentha piperita",
-    "family": "Lamiaceae (Mint family)",
     "family": "Lamiaceae (Mint family)",
     "danishName": null,
     "frenchName": null,
@@ -467,7 +449,7 @@ window.PLANTS_DATA = [
     "botanicalName": "Trifolium pratense",
     "danishName": "Rødkløver",
     "frenchName": "Trèfle rouge",
-    "systems": ["woman-reproductive", "hormonal", "digestive"],
+    "systems": ["woman-reproductive", "digestive"],
     "properties": ["Anticancer preventive", "Antidepressant", "Sedative", "Blood purifying", "Female tonic", "Diuretic", "Estrogen regulating"],
     "status": "in-progress",
     "fileSlug": "red-clover"
@@ -475,7 +457,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Sassafras",
     "botanicalName": "Sassafras albidum",
-    "family": "Lauraceae (Laurel family)",
     "family": "Lauraceae (Laurel family)",
     "danishName": "Sassafras",
     "frenchName": "Sassafras",
@@ -488,7 +469,6 @@ window.PLANTS_DATA = [
     "commonName": "Skullcap",
     "botanicalName": "Scutellaria lateriflora",
     "family": "Lamiaceae (Mint family)",
-    "family": "Lamiaceae (Mint family)",
     "danishName": "Amerikansk skjolddrager",
     "frenchName": "Scutellaire latériflore, Toque casquée",
     "systems": ["nervous"],
@@ -500,7 +480,6 @@ window.PLANTS_DATA = [
     "commonName": "Slippery Elm",
     "botanicalName": "Ulmus fulva",
     "family": "Ulmaceae (Elm family)",
-    "family": "Ulmaceae (Elm family)",
     "danishName": "Glat elm",
     "frenchName": "Orme rouge",
     "systems": ["respiratory"],
@@ -511,7 +490,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "St. John's Wort",
     "botanicalName": "Hypericum perforatum",
-    "family": "Hypericaceae (St. John's Wort family)",
     "family": "Hypericaceae (St. John's Wort family)",
     "danishName": "Prikbladet perikon",
     "frenchName": "Millepertuis perforé",
@@ -533,7 +511,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Valerian",
     "botanicalName": "Valeriana officinalis",
-    "family": "Caprifoliaceae (Honeysuckle family)",
     "family": "Caprifoliaceae (Honeysuckle family)",
     "danishName": "Baldrian, Læge-baldrian",
     "frenchName": "Valériane officinale",
@@ -566,7 +543,6 @@ window.PLANTS_DATA = [
     "commonName": "Raspberry Leaf",
     "botanicalName": "Rubus idaeus",
     "family": "Rosaceae (Rose family)",
-    "family": "Rosaceae (Rose family)",
     "danishName": "Hindbær",
     "frenchName": "Framboisier",
     "systems": ["woman-reproductive"],
@@ -577,7 +553,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Wild Yam",
     "botanicalName": "Dioscorea villosa",
-    "family": "Dioscoreaceae (Yam family)",
     "family": "Dioscoreaceae (Yam family)",
     "danishName": "Vild yams",
     "frenchName": "Igname sauvage",
@@ -591,7 +566,7 @@ window.PLANTS_DATA = [
     "botanicalName": "Vitex agnus castus",
     "danishName": "Kyskhedstræ",
     "frenchName": "Gattilier",
-    "systems": ["woman-reproductive", "hormonal"],
+    "systems": ["woman-reproductive"],
     "properties": ["Woman tonic", "Menstruation regulating", "Hypnotic", "Progesterone effect", "Prolactin inhibiting", "Galactagogue", "Estrogen regulating"],
     "status": "in-progress",
     "fileSlug": "vitex"
@@ -599,7 +574,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Motherwort",
     "botanicalName": "Leonurus cardiaca",
-    "family": "Lamiaceae (Mint family)",
     "family": "Lamiaceae (Mint family)",
     "danishName": "Hjertespand",
     "frenchName": "Agripaume",
@@ -613,7 +587,7 @@ window.PLANTS_DATA = [
     "botanicalName": "Actaea racemosa",
     "danishName": "Sort sølvlys",
     "frenchName": "Actée à grappes",
-    "systems": ["woman-reproductive", "hormonal"],
+    "systems": ["woman-reproductive"],
     "properties": ["Anti-inflammatory (musculoskeletal)", "Anti-inflammatory (female reproductive organs)", "Sedative", "Blood pressure regulating", "Uterine tonic", "Antispasmodic", "Nerve tonic", "Antirheumatic", "Perspiration inhibiting", "Estrogen regulating"],
     "status": "in-progress",
     "fileSlug": "black-cohosh"
@@ -642,7 +616,6 @@ window.PLANTS_DATA = [
     "commonName": "Cramp Bark",
     "botanicalName": "Viburnum opulus",
     "family": "Adoxaceae (Moschatel family)",
-    "family": "Adoxaceae (Moschatel family)",
     "danishName": "Kvalkved",
     "frenchName": "Viorne obier",
     "systems": ["woman-reproductive"],
@@ -664,7 +637,6 @@ window.PLANTS_DATA = [
     "commonName": "Dong Quai",
     "botanicalName": "Angelica sinensis",
     "family": "Apiaceae (Carrot family)",
-    "family": "Apiaceae (Carrot family)",
     "danishName": "Kinesisk kvan",
     "frenchName": "Angélique chinoise",
     "systems": ["woman-reproductive", "cardiovascular"],
@@ -676,7 +648,6 @@ window.PLANTS_DATA = [
     "commonName": "Saw Palmetto",
     "botanicalName": "Serenoa repens",
     "family": "Arecaceae (Palm family)",
-    "family": "Arecaceae (Palm family)",
     "danishName": "Dværgpalme",
     "frenchName": "Palmier nain",
     "systems": ["male-reproductive", "urinary"],
@@ -687,7 +658,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Damiana",
     "botanicalName": "Turnera diffusa",
-    "family": "Passifloraceae (Passion flower family)",
     "family": "Passifloraceae (Passion flower family)",
     "danishName": "Damiana",
     "frenchName": "Damiane",
@@ -710,7 +680,6 @@ window.PLANTS_DATA = [
     "commonName": "Siberian Ginseng",
     "botanicalName": "Eleutherococcus senticosus",
     "family": "Araliaceae (Ginseng family)",
-    "family": "Araliaceae (Ginseng family)",
     "danishName": "Sibirisk ginseng",
     "frenchName": "Ginseng de Sibérie",
     "systems": ["male-reproductive", "nervous", "immune"],
@@ -721,7 +690,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Pumpkin Seeds",
     "botanicalName": "Cucurbita pepo",
-    "family": "Cucurbitaceae (Gourd family)",
     "family": "Cucurbitaceae (Gourd family)",
     "danishName": "Græskarkerner",
     "frenchName": "Graines de courge",
@@ -754,7 +722,6 @@ window.PLANTS_DATA = [
     "commonName": "Cascara Sagrada",
     "botanicalName": "Rhamnus purshiana",
     "family": "Rhamnaceae (Buckthorn family)",
-    "family": "Rhamnaceae (Buckthorn family)",
     "danishName": "Cascara",
     "frenchName": "Cascara sagrada",
     "systems": ["digestive"],
@@ -765,7 +732,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Fennel",
     "botanicalName": "Foeniculum vulgare",
-    "family": "Apiaceae (Carrot family)",
     "family": "Apiaceae (Carrot family)",
     "danishName": "Fennikel",
     "frenchName": "Fenouil",
@@ -778,7 +744,6 @@ window.PLANTS_DATA = [
     "commonName": "Calamus",
     "botanicalName": "Acorus calamus",
     "family": "Acoraceae (Calamus family)",
-    "family": "Acoraceae (Calamus family)",
     "danishName": "Kalmus",
     "frenchName": "Acore odorant",
     "systems": ["digestive"],
@@ -790,7 +755,6 @@ window.PLANTS_DATA = [
     "commonName": "Anise",
     "botanicalName": "Pimpinella anisum",
     "family": "Apiaceae (Carrot family)",
-    "family": "Apiaceae (Carrot family)",
     "danishName": "Anis",
     "frenchName": "Anis vert",
     "systems": ["digestive", "respiratory"],
@@ -801,7 +765,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Dill",
     "botanicalName": "Anethum graveolens",
-    "family": "Apiaceae (Carrot family)",
     "family": "Apiaceae (Carrot family)",
     "danishName": "Dild",
     "frenchName": "Aneth",
@@ -824,7 +787,6 @@ window.PLANTS_DATA = [
     "commonName": "Schisandra",
     "botanicalName": "Schisandra chinensis",
     "family": "Schisandraceae (Schisandra family)",
-    "family": "Schisandraceae (Schisandra family)",
     "danishName": "Schisandra",
     "frenchName": "Schisandre de Chine",
     "systems": ["immune", "nervous", "respiratory"],
@@ -836,7 +798,6 @@ window.PLANTS_DATA = [
     "commonName": "Astragalus",
     "botanicalName": "Astragalus membranaceus",
     "family": "Fabaceae (Legume family)",
-    "family": "Fabaceae (Legume family)",
     "danishName": "Astragalus",
     "frenchName": "Astragale",
     "systems": ["immune", "cardiovascular"],
@@ -847,7 +808,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Ligustrum",
     "botanicalName": "Ligustrum lucidum",
-    "family": "Oleaceae (Olive family)",
     "family": "Oleaceae (Olive family)",
     "danishName": "Liguster",
     "frenchName": "Troène luisant",
@@ -870,7 +830,6 @@ window.PLANTS_DATA = [
     "commonName": "Shiitake Mushroom",
     "botanicalName": "Lentinula edodes",
     "family": "Marasmiaceae (Mushroom)",
-    "family": "Marasmiaceae (Mushroom)",
     "danishName": "Shiitake",
     "frenchName": "Shiitake",
     "systems": ["immune"],
@@ -882,7 +841,6 @@ window.PLANTS_DATA = [
     "commonName": "Reishi Mushroom",
     "botanicalName": "Ganoderma lucidum",
     "family": "Ganodermataceae (Mushroom)",
-    "family": "Ganodermataceae (Mushroom)",
     "danishName": "Reishi",
     "frenchName": "Reishi",
     "systems": ["immune", "respiratory", "nervous"],
@@ -893,7 +851,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Yarrow",
     "botanicalName": "Achillea millefolium",
-    "family": "Asteraceae (Daisy family)",
     "family": "Asteraceae (Daisy family)",
     "danishName": "Almindelig røllike",
     "frenchName": "Achillée millefeuille",
@@ -916,7 +873,6 @@ window.PLANTS_DATA = [
     "commonName": "Aloe Vera",
     "botanicalName": "Aloe vera",
     "family": "Asphodelaceae (Aloe family)",
-    "family": "Asphodelaceae (Aloe family)",
     "danishName": "Aloe vera",
     "frenchName": "Aloès",
     "systems": ["digestive", "immune"],
@@ -927,7 +883,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Marshmallow",
     "botanicalName": "Althaea officinalis",
-    "family": "Malvaceae (Mallow family)",
     "family": "Malvaceae (Mallow family)",
     "danishName": "Læge-altea",
     "frenchName": "Guimauve",
@@ -940,7 +895,6 @@ window.PLANTS_DATA = [
     "commonName": "Arnica",
     "botanicalName": "Arnica montana",
     "family": "Asteraceae (Daisy family)",
-    "family": "Asteraceae (Daisy family)",
     "danishName": "Almindelig arnika",
     "frenchName": "Arnica des montagnes",
     "systems": ["cardiovascular", "skin"],
@@ -951,7 +905,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Calendula",
     "botanicalName": "Calendula officinalis",
-    "family": "Asteraceae (Daisy family)",
     "family": "Asteraceae (Daisy family)",
     "danishName": "Have-morgenfrue",
     "frenchName": "Souci officinal",
@@ -974,7 +927,6 @@ window.PLANTS_DATA = [
     "commonName": "Turmeric",
     "botanicalName": "Curcuma longa",
     "family": "Zingiberaceae (Ginger family)",
-    "family": "Zingiberaceae (Ginger family)",
     "danishName": "Gurkemeje",
     "frenchName": "Curcuma",
     "systems": ["digestive", "cardiovascular", "immune", "skin"],
@@ -986,7 +938,6 @@ window.PLANTS_DATA = [
     "commonName": "Horse Chestnut",
     "botanicalName": "Aesculus hippocastanum",
     "family": "Sapindaceae (Soapberry family)",
-    "family": "Sapindaceae (Soapberry family)",
     "danishName": "Almindelig hestekastanje",
     "frenchName": "Marronnier d'Inde",
     "systems": ["cardiovascular"],
@@ -997,7 +948,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Witch Hazel",
     "botanicalName": "Hamamelis virginiana",
-    "family": "Hamamelidaceae (Witch-hazel family)",
     "family": "Hamamelidaceae (Witch-hazel family)",
     "danishName": "Virginsk troldnød",
     "frenchName": "Hamamélis de Virginie",
@@ -1020,7 +970,6 @@ window.PLANTS_DATA = [
     "commonName": "Lemon Balm",
     "botanicalName": "Melissa officinalis",
     "family": "Lamiaceae (Mint family)",
-    "family": "Lamiaceae (Mint family)",
     "danishName": "Hjertensfryd",
     "frenchName": "Mélisse",
     "systems": ["nervous", "digestive", "skin"],
@@ -1042,7 +991,6 @@ window.PLANTS_DATA = [
     "commonName": "Olive Leaf",
     "botanicalName": "Olea europaea",
     "family": "Oleaceae (Olive family)",
-    "family": "Oleaceae (Olive family)",
     "danishName": "Oliventræ",
     "frenchName": "Olivier",
     "systems": ["cardiovascular", "immune"],
@@ -1053,7 +1001,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Oregano",
     "botanicalName": "Origanum vulgare",
-    "family": "Lamiaceae (Mint family)",
     "family": "Lamiaceae (Mint family)",
     "danishName": "Merian",
     "frenchName": "Origan",
@@ -1066,7 +1013,6 @@ window.PLANTS_DATA = [
     "commonName": "Passionflower",
     "botanicalName": "Passiflora incarnata",
     "family": "Passifloraceae (Passion flower family)",
-    "family": "Passifloraceae (Passion flower family)",
     "danishName": "Passionsblomst",
     "frenchName": "Passiflore",
     "systems": ["nervous"],
@@ -1077,7 +1023,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Rosemary",
     "botanicalName": "Rosmarinus officinalis",
-    "family": "Lamiaceae (Mint family)",
     "family": "Lamiaceae (Mint family)",
     "danishName": "Rosmarin",
     "frenchName": "Romarin",
@@ -1090,10 +1035,9 @@ window.PLANTS_DATA = [
     "commonName": "Sage",
     "botanicalName": "Salvia officinalis",
     "family": "Lamiaceae (Mint family)",
-    "family": "Lamiaceae (Mint family)",
     "danishName": "Læge-salvie",
     "frenchName": "Sauge officinale",
-    "systems": ["digestive", "respiratory", "hormonal"],
+    "systems": ["digestive", "respiratory"],
     "properties": ["Antibacterial", "Anti-inflammatory (respiratory)", "Anti-inflammatory (digestive)", "Antimicrobial", "Antioxidant", "Astringent", "Carminative", "Choleretic", "Vulnerary", "Perspiration inhibiting", "Mucous reducing (lower respiratory)", "Mucous reducing (upper respiratory)", "Antispasmodic", "Galactagogue inhibiting", "Estrogen regulating", "Antifungal"],
     "status": "in-progress",
     "fileSlug": "sage"
@@ -1101,7 +1045,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Elderberry",
     "botanicalName": "Sambucus nigra",
-    "family": "Adoxaceae (Moschatel family)",
     "family": "Adoxaceae (Moschatel family)",
     "danishName": "Hyld",
     "frenchName": "Sureau noir",
@@ -1114,7 +1057,6 @@ window.PLANTS_DATA = [
     "commonName": "Milk Thistle",
     "botanicalName": "Silybum marianum",
     "family": "Asteraceae (Daisy family)",
-    "family": "Asteraceae (Daisy family)",
     "danishName": "Marietidsel",
     "frenchName": "Chardon-Marie",
     "systems": ["digestive"],
@@ -1125,7 +1067,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Thyme",
     "botanicalName": "Thymus vulgaris",
-    "family": "Lamiaceae (Mint family)",
     "family": "Lamiaceae (Mint family)",
     "danishName": "Timian",
     "frenchName": "Thym",
@@ -1138,7 +1079,6 @@ window.PLANTS_DATA = [
     "commonName": "Valerian",
     "botanicalName": "Valeriana officinalis",
     "family": "Caprifoliaceae (Honeysuckle family)",
-    "family": "Caprifoliaceae (Honeysuckle family)",
     "danishName": "Baldrian",
     "frenchName": "Valériane",
     "systems": ["nervous"],
@@ -1149,7 +1089,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Grape Seed",
     "botanicalName": "Vitis vinifera",
-    "family": "Vitaceae (Grape family)",
     "family": "Vitaceae (Grape family)",
     "danishName": "Vindrue",
     "frenchName": "Vigne",
@@ -1162,10 +1101,9 @@ window.PLANTS_DATA = [
     "commonName": "False Unicorn Root",
     "botanicalName": "Chamaelirium luteum",
     "family": "Melanthiaceae (False hellebore family)",
-    "family": "Melanthiaceae (False hellebore family)",
     "danishName": "Falsk enhjørningsrod",
     "frenchName": "Chamælirium jaune",
-    "systems": ["woman-reproductive", "hormonal"],
+    "systems": ["woman-reproductive"],
     "properties": ["Woman tonic", "Uterine tonic", "Menstruation regulating"],
     "status": "in-progress",
     "fileSlug": "false-unicorn-root"
@@ -1173,7 +1111,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Lady's Mantle",
     "botanicalName": "Alchemilla vulgaris",
-    "family": "Rosaceae (Rose family)",
     "family": "Rosaceae (Rose family)",
     "danishName": "Almindelig løvefod",
     "frenchName": "Alchémille commune",
@@ -1186,7 +1123,6 @@ window.PLANTS_DATA = [
     "commonName": "Partridgeberry",
     "botanicalName": "Mitchella repens",
     "family": "Rubiaceae (Coffee family)",
-    "family": "Rubiaceae (Coffee family)",
     "danishName": "Mitchella",
     "frenchName": "Mitchella rampant",
     "systems": ["woman-reproductive"],
@@ -1197,7 +1133,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Beth Root",
     "botanicalName": "Trillium erectum",
-    "family": "Melanthiaceae (False hellebore family)",
     "family": "Melanthiaceae (False hellebore family)",
     "danishName": "Treblad",
     "frenchName": "Trille dressé",
@@ -1210,7 +1145,6 @@ window.PLANTS_DATA = [
     "commonName": "Agrimony",
     "botanicalName": "Agrimonia eupatoria",
     "family": "Rosaceae (Rose family)",
-    "family": "Rosaceae (Rose family)",
     "danishName": "Almindelig agermåne",
     "frenchName": "Aigremoine eupatoire",
     "systems": ["digestive"],
@@ -1221,7 +1155,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Artichoke",
     "botanicalName": "Cynara scolymus",
-    "family": "Asteraceae (Daisy family)",
     "family": "Asteraceae (Daisy family)",
     "danishName": "Artiskok",
     "frenchName": "Artichaut",
@@ -1234,7 +1167,6 @@ window.PLANTS_DATA = [
     "commonName": "Wormwood",
     "botanicalName": "Artemisia absinthium",
     "family": "Asteraceae (Daisy family)",
-    "family": "Asteraceae (Daisy family)",
     "danishName": "Malurt",
     "frenchName": "Absinthe",
     "systems": ["digestive"],
@@ -1245,7 +1177,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Mugwort",
     "botanicalName": "Artemisia vulgaris",
-    "family": "Asteraceae (Daisy family)",
     "family": "Asteraceae (Daisy family)",
     "danishName": "Grå bynke",
     "frenchName": "Armoise commune",
@@ -1258,7 +1189,6 @@ window.PLANTS_DATA = [
     "commonName": "Butternut",
     "botanicalName": "Juglans cinerea",
     "family": "Juglandaceae (Walnut family)",
-    "family": "Juglandaceae (Walnut family)",
     "danishName": "Grå valnød",
     "frenchName": "Noyer cendré",
     "systems": ["digestive"],
@@ -1269,7 +1199,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Horehound",
     "botanicalName": "Marrubium vulgare",
-    "family": "Lamiaceae (Mint family)",
     "family": "Lamiaceae (Mint family)",
     "danishName": "Kransburre",
     "frenchName": "Marrube blanc",
@@ -1282,7 +1211,6 @@ window.PLANTS_DATA = [
     "commonName": "Meadowsweet",
     "botanicalName": "Filipendula ulmaria",
     "family": "Rosaceae (Rose family)",
-    "family": "Rosaceae (Rose family)",
     "danishName": "Mjødurt",
     "frenchName": "Reine-des-prés",
     "systems": ["digestive", "urinary"],
@@ -1293,7 +1221,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Fenugreek",
     "botanicalName": "Trigonella foenum-graecum",
-    "family": "Fabaceae (Legume family)",
     "family": "Fabaceae (Legume family)",
     "danishName": "Bukkehorn",
     "frenchName": "Fenugrec",
@@ -1306,7 +1233,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Andrographis",
     "botanicalName": "Andrographis paniculata",
-    "family": "Acanthaceae (Acanthus family)",
     "family": "Acanthaceae (Acanthus family)",
     "danishName": "Andrographis",
     "frenchName": "Andrographis",
@@ -1332,12 +1258,11 @@ window.PLANTS_DATA = [
     "commonName": "Ashwagandha",
     "botanicalName": "Asparagus racemosa",
     "family": "Asparagaceae (Asparagus family)",
-    "family": "Asparagaceae (Asparagus family)",
     "danishName": "Ashwagandha",
     "frenchName": "Ashwagandha",
     "systems": [
       "nervous",
-      "hormonal",
+      ,
       "woman-reproductive"
     ],
     "properties": [
@@ -1353,7 +1278,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Bacopa",
     "botanicalName": "Bacopa monnieri",
-    "family": "Plantaginaceae (Plantain family)",
     "family": "Plantaginaceae (Plantain family)",
     "danishName": "Bacopa",
     "frenchName": "Bacopa",
@@ -1374,7 +1298,6 @@ window.PLANTS_DATA = [
     "commonName": "Codonopsis",
     "botanicalName": "Codonopsis pilosula",
     "family": "Campanulaceae (Bellflower family)",
-    "family": "Campanulaceae (Bellflower family)",
     "danishName": "Codonopsis",
     "frenchName": "Codonopsis",
     "systems": [
@@ -1393,7 +1316,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Rhodiola",
     "botanicalName": "Rhodiola rosea",
-    "family": "Crassulaceae (Stonecrop family)",
     "family": "Crassulaceae (Stonecrop family)",
     "danishName": "Rhodiola",
     "frenchName": "Rhodiola",
@@ -1418,7 +1340,6 @@ window.PLANTS_DATA = [
     "commonName": "Oat Straw",
     "botanicalName": "Avena sativa",
     "family": "Poaceae (Grass family)",
-    "family": "Poaceae (Grass family)",
     "danishName": "Havre",
     "frenchName": "Avoine",
     "systems": [
@@ -1437,7 +1358,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Cat's Claw",
     "botanicalName": "Uncaria tomentosa",
-    "family": "Rubiaceae (Coffee family)",
     "family": "Rubiaceae (Coffee family)",
     "danishName": "Katteklo",
     "frenchName": "Griffe de chat",
@@ -1459,7 +1379,6 @@ window.PLANTS_DATA = [
     "commonName": "Hawthorn",
     "botanicalName": "Crataegus arter",
     "family": "Rosaceae (Rose family)",
-    "family": "Rosaceae (Rose family)",
     "danishName": "Hvidtjørn",
     "frenchName": "Aubépine",
     "systems": [
@@ -1479,7 +1398,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Linden",
     "botanicalName": "Tilia arter",
-    "family": "Malvaceae (Mallow family)",
     "family": "Malvaceae (Mallow family)",
     "danishName": "Lind",
     "frenchName": "Tilleul",
@@ -1501,12 +1419,11 @@ window.PLANTS_DATA = [
     "commonName": "Bugleweed",
     "botanicalName": "Lycopus virginicus",
     "family": "Lamiaceae (Mint family)",
-    "family": "Lamiaceae (Mint family)",
     "danishName": "Bugleweed",
     "frenchName": "Bugleweed",
     "systems": [
       "cardiovascular",
-      "hormonal"
+      
     ],
     "properties": [
       "Antithyroid",
@@ -1519,7 +1436,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Butcher's Broom",
     "botanicalName": "Ruscus aculeatus",
-    "family": "Asparagaceae (Asparagus family)",
     "family": "Asparagaceae (Asparagus family)",
     "danishName": "Musetorn",
     "frenchName": "Fragon",
@@ -1537,7 +1453,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "White Willow",
     "botanicalName": "Salix alba",
-    "family": "Salicaceae (Willow family)",
     "family": "Salicaceae (Willow family)",
     "danishName": "Hvid pil",
     "frenchName": "Saule blanc",
@@ -1559,7 +1474,6 @@ window.PLANTS_DATA = [
     "commonName": "Celery Seed",
     "botanicalName": "Apium graveolens",
     "family": "Apiaceae (Carrot family)",
-    "family": "Apiaceae (Carrot family)",
     "danishName": "Selleri",
     "frenchName": "Céleri",
     "systems": [
@@ -1580,7 +1494,6 @@ window.PLANTS_DATA = [
     "commonName": "Couch Grass",
     "botanicalName": "Agropyron repens",
     "family": "Poaceae (Grass family)",
-    "family": "Poaceae (Grass family)",
     "danishName": "Kvik",
     "frenchName": "Chiendent",
     "systems": [
@@ -1598,7 +1511,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Bupleurum",
     "botanicalName": "Bupleurum falcatum",
-    "family": "Apiaceae (Carrot family)",
     "family": "Apiaceae (Carrot family)",
     "danishName": "Bupleurum",
     "frenchName": "Buplèvre",
@@ -1619,7 +1531,6 @@ window.PLANTS_DATA = [
     "commonName": "Phyllanthus",
     "botanicalName": "Phyllanthus amarus",
     "family": "Phyllanthaceae (Phyllanthus family)",
-    "family": "Phyllanthaceae (Phyllanthus family)",
     "danishName": "Phyllanthus",
     "frenchName": "Phyllanthus",
     "systems": [
@@ -1638,7 +1549,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Picrorrhiza",
     "botanicalName": "Picrorrhiza kurroa",
-    "family": "Plantaginaceae (Plantain family)",
     "family": "Plantaginaceae (Plantain family)",
     "danishName": "Picrorrhiza",
     "frenchName": "Picrorrhiza",
@@ -1659,7 +1569,6 @@ window.PLANTS_DATA = [
     "commonName": "Wild Cherry",
     "botanicalName": "Prunus serotina",
     "family": "Rosaceae (Rose family)",
-    "family": "Rosaceae (Rose family)",
     "danishName": "Virginsk kirsebær",
     "frenchName": "Cerisier tardif",
     "systems": [
@@ -1679,7 +1588,6 @@ window.PLANTS_DATA = [
     "commonName": "Boswellia",
     "botanicalName": "Boswellia serrata",
     "family": "Burseraceae (Frankincense family)",
-    "family": "Burseraceae (Frankincense family)",
     "danishName": "Røgelsestræ",
     "frenchName": "Boswellia",
     "systems": [
@@ -1698,7 +1606,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Myrrh",
     "botanicalName": "Commiphora molmol",
-    "family": "Burseraceae (Frankincense family)",
     "family": "Burseraceae (Frankincense family)",
     "danishName": "Myrra",
     "frenchName": "Myrrhe",
@@ -1721,7 +1628,6 @@ window.PLANTS_DATA = [
     "commonName": "Devil's Claw",
     "botanicalName": "Harpagophytum procumbens",
     "family": "Pedaliaceae (Sesame family)",
-    "family": "Pedaliaceae (Sesame family)",
     "danishName": "Djævelsklo",
     "frenchName": "Griffe du diable",
     "systems": [
@@ -1741,7 +1647,6 @@ window.PLANTS_DATA = [
     "commonName": "Guaiacum",
     "botanicalName": "Guaiacum officinalis",
     "family": "Zygophyllaceae (Caltrop family)",
-    "family": "Zygophyllaceae (Caltrop family)",
     "danishName": "Guajak",
     "frenchName": "Gaïac",
     "systems": [
@@ -1758,7 +1663,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "White Peony",
     "botanicalName": "Paeonia lactiflora",
-    "family": "Paeoniaceae (Peony family)",
     "family": "Paeoniaceae (Peony family)",
     "danishName": "Hvid pæon",
     "frenchName": "Pivoine blanche",
@@ -1780,7 +1684,6 @@ window.PLANTS_DATA = [
     "commonName": "Tree Peony",
     "botanicalName": "Paeonia suffructicosa",
     "family": "Paeoniaceae (Peony family)",
-    "family": "Paeoniaceae (Peony family)",
     "danishName": "Træpæon",
     "frenchName": "Pivoine arbustive",
     "systems": [
@@ -1798,7 +1701,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Propolis",
     "botanicalName": "Propolis",
-    "family": "Apidae (Bee product)",
     "family": "Apidae (Bee product)",
     "danishName": "Propolis",
     "frenchName": "Propolis",
@@ -1821,7 +1723,6 @@ window.PLANTS_DATA = [
     "commonName": "Pine Bark Extract",
     "botanicalName": "Pinus pinaster",
     "family": "Pinaceae (Pine family)",
-    "family": "Pinaceae (Pine family)",
     "danishName": "Skovfyr",
     "frenchName": "Pin maritime",
     "systems": [
@@ -1841,7 +1742,6 @@ window.PLANTS_DATA = [
     "commonName": "Grindelia",
     "botanicalName": "Grindelia camporum",
     "family": "Asteraceae (Daisy family)",
-    "family": "Asteraceae (Daisy family)",
     "danishName": "Grindelia",
     "frenchName": "Grindélie",
     "systems": [
@@ -1860,7 +1760,6 @@ window.PLANTS_DATA = [
     "commonName": "Euphorbia",
     "botanicalName": "Euphorbia hirta",
     "family": "Euphorbiaceae (Spurge family)",
-    "family": "Euphorbiaceae (Spurge family)",
     "danishName": "Euphorbia",
     "frenchName": "Euphorbe",
     "systems": [
@@ -1878,7 +1777,6 @@ window.PLANTS_DATA = [
     "commonName": "Eyebright",
     "botanicalName": "Euphrasia officinalis",
     "family": "Orobanchaceae (Broomrape family)",
-    "family": "Orobanchaceae (Broomrape family)",
     "danishName": "Øjentrøst",
     "frenchName": "Euphraise",
     "systems": [
@@ -1894,7 +1792,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Thuja",
     "botanicalName": "Thuja officinalis",
-    "family": "Cupressaceae (Cypress family)",
     "family": "Cupressaceae (Cypress family)",
     "danishName": "Thuja",
     "frenchName": "Thuya",
@@ -1914,7 +1811,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Horsetail",
     "botanicalName": "Equisetum arvense",
-    "family": "Equisetaceae (Horsetail family)",
     "family": "Equisetaceae (Horsetail family)",
     "danishName": "Ager-padderok",
     "frenchName": "Prêle des champs",
@@ -1936,7 +1832,6 @@ window.PLANTS_DATA = [
     "commonName": "Blue Flag",
     "botanicalName": "Iris versicolor",
     "family": "Iridaceae (Iris family)",
-    "family": "Iridaceae (Iris family)",
     "danishName": "Iris",
     "frenchName": "Iris versicolore",
     "systems": [
@@ -1955,7 +1850,6 @@ window.PLANTS_DATA = [
     "commonName": "Cranberry",
     "botanicalName": "Vaccinium macrocarpon",
     "family": "Ericaceae (Heath family)",
-    "family": "Ericaceae (Heath family)",
     "danishName": "Tranebær",
     "frenchName": "Canneberge",
     "systems": [
@@ -1971,7 +1865,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Goldenrod",
     "botanicalName": "Solidago virgaurea",
-    "family": "Asteraceae (Daisy family)",
     "family": "Asteraceae (Daisy family)",
     "danishName": "Gyldenris",
     "frenchName": "Verge d'or",
@@ -1992,7 +1885,6 @@ window.PLANTS_DATA = [
     "commonName": "Shepherd's Purse",
     "botanicalName": "Capsella bursa-pastoris",
     "family": "Brassicaceae (Mustard family)",
-    "family": "Brassicaceae (Mustard family)",
     "danishName": "Hyrdetaske",
     "frenchName": "Bourse-à-pasteur",
     "systems": [
@@ -2009,7 +1901,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Crataeva",
     "botanicalName": "Crataeva nurvala",
-    "family": "Capparaceae (Caper family)",
     "family": "Capparaceae (Caper family)",
     "danishName": "Crataeva",
     "frenchName": "Crataeva",
@@ -2028,12 +1919,11 @@ window.PLANTS_DATA = [
     "commonName": "Rehmannia",
     "botanicalName": "Rehmannia glutinosa",
     "family": "Orobanchaceae (Broomrape family)",
-    "family": "Orobanchaceae (Broomrape family)",
     "danishName": "Rehmannia",
     "frenchName": "Rehmannia",
     "systems": [
       "woman-reproductive",
-      "hormonal"
+      
     ],
     "properties": [
       "Adrenal tonic",
@@ -2047,7 +1937,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Birch",
     "botanicalName": "Betula pendula",
-    "family": "Betulaceae (Birch family)",
     "family": "Betulaceae (Birch family)",
     "danishName": "Vortebirk",
     "frenchName": "Bouleau",
@@ -2065,7 +1954,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Heartsease",
     "botanicalName": "Viola tricolor",
-    "family": "Violaceae (Violet family)",
     "family": "Violaceae (Violet family)",
     "danishName": "Vild stedmoder",
     "frenchName": "Pensée sauvage",
@@ -2085,7 +1973,6 @@ window.PLANTS_DATA = [
     "commonName": "Sweet Violet",
     "botanicalName": "Viola odoratar",
     "family": "Violaceae (Violet family)",
-    "family": "Violaceae (Violet family)",
     "danishName": "Marts-viol",
     "frenchName": "Violette odorante",
     "systems": [
@@ -2103,7 +1990,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Feverfew",
     "botanicalName": "Tanacetum parthenium",
-    "family": "Asteraceae (Daisy family)",
     "family": "Asteraceae (Daisy family)",
     "danishName": "Matrem",
     "frenchName": "Grande camomille",
@@ -2124,7 +2010,6 @@ window.PLANTS_DATA = [
     "commonName": "Vervain",
     "botanicalName": "Verbena officinalis",
     "family": "Verbenaceae (Verbena family)",
-    "family": "Verbenaceae (Verbena family)",
     "danishName": "Læge-jernurt",
     "frenchName": "Verveine",
     "systems": [
@@ -2144,7 +2029,6 @@ window.PLANTS_DATA = [
     "commonName": "Jujube",
     "botanicalName": "Zizyphus jujuba",
     "family": "Rhamnaceae (Buckthorn family)",
-    "family": "Rhamnaceae (Buckthorn family)",
     "danishName": "Jujube",
     "frenchName": "Jujubier",
     "systems": [
@@ -2162,7 +2046,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Coleus",
     "botanicalName": "Coleus forskohlii",
-    "family": "Lamiaceae (Mint family)",
     "family": "Lamiaceae (Mint family)",
     "danishName": "Coleus",
     "frenchName": "Coléus",
@@ -2182,7 +2065,6 @@ window.PLANTS_DATA = [
     "commonName": "Chaga",
     "botanicalName": "Inonotus obliquus",
     "family": "Hymenochaetaceae (Mushroom)",
-    "family": "Hymenochaetaceae (Mushroom)",
     "danishName": "Chaga",
     "frenchName": "Chaga",
     "systems": [
@@ -2199,7 +2081,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Lion's Mane",
     "botanicalName": "Hericium erinaceus",
-    "family": "Hericiaceae (Mushroom)",
     "family": "Hericiaceae (Mushroom)",
     "danishName": "Pindsvineporesvamp",
     "frenchName": "Hydne hérisson",
@@ -2220,7 +2101,6 @@ window.PLANTS_DATA = [
     "commonName": "Cordyceps",
     "botanicalName": "Ophiocordyceps militaris",
     "family": "Ophiocordycipitaceae (Mushroom)",
-    "family": "Ophiocordycipitaceae (Mushroom)",
     "danishName": "Cordyceps",
     "frenchName": "Cordyceps",
     "systems": [
@@ -2240,7 +2120,6 @@ window.PLANTS_DATA = [
     "commonName": "Golden Oyster Mushroom",
     "botanicalName": "Pleurotus citrinopileatus",
     "family": "Pleurotaceae (Mushroom)",
-    "family": "Pleurotaceae (Mushroom)",
     "danishName": "Gul østershat",
     "frenchName": "Pleurote jaune",
     "systems": [
@@ -2256,7 +2135,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Green Tea",
     "botanicalName": "Camellia sinensis",
-    "family": "Theaceae (Tea family)",
     "family": "Theaceae (Tea family)",
     "danishName": "Grøn te",
     "frenchName": "Thé vert",
@@ -2276,11 +2154,10 @@ window.PLANTS_DATA = [
     "commonName": "Bladderwrack",
     "botanicalName": "Fucus vesiculosus",
     "family": "Fucaceae (Brown algae)",
-    "family": "Fucaceae (Brown algae)",
     "danishName": "Blæretang",
     "frenchName": "Varech vésiculeux",
     "systems": [
-      "hormonal"
+      
     ],
     "properties": [
       "Metabolic stimulant",
@@ -2293,7 +2170,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Goat's Rue",
     "botanicalName": "Galega officinalis",
-    "family": "Fabaceae (Legume family)",
     "family": "Fabaceae (Legume family)",
     "danishName": "Læge-stregbælg",
     "frenchName": "Galéga",
@@ -2312,7 +2188,6 @@ window.PLANTS_DATA = [
     "commonName": "Indian Sarsaparilla",
     "botanicalName": "Hemidesmus indicus",
     "family": "Apocynaceae (Dogbane family)",
-    "family": "Apocynaceae (Dogbane family)",
     "danishName": "Indisk sarsaparil",
     "frenchName": "Salsepareille indienne",
     "systems": [
@@ -2330,7 +2205,6 @@ window.PLANTS_DATA = [
     "commonName": "Purple Willow",
     "botanicalName": "Salix purpurea",
     "family": "Salicaceae (Willow family)",
-    "family": "Salicaceae (Willow family)",
     "danishName": "Purpurpil",
     "frenchName": "Saule pourpre",
     "systems": [
@@ -2347,7 +2221,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Bilberry",
     "botanicalName": "Vaccinium myrtillus",
-    "family": "Ericaceae (Heath family)",
     "family": "Ericaceae (Heath family)",
     "danishName": "Blåbær",
     "frenchName": "Myrtille",
@@ -2367,7 +2240,6 @@ window.PLANTS_DATA = [
   {
     "commonName": "Cacao",
     "botanicalName": "Theobroma cacao",
-    "family": "Malvaceae (Mallow family)",
     "family": "Malvaceae (Mallow family)",
     "danishName": "Kakao",
     "frenchName": "Cacao",
