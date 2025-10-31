@@ -2,6 +2,10 @@
 
 A collection of medicinal plants with detailed information on botanical names, properties, uses, and traditional herbal medicine knowledge.
 
+**🌐 Live Site:** https://laureanne-sea.github.io/materia-medica/
+
+**📦 GitHub Repository:** https://github.com/laureanne-sea/materia-medica
+
 ## 📁 File Structure
 
 ### Essential Files (Don't Delete!)
