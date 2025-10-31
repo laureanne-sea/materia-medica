@@ -27,57 +27,130 @@
      * Returns '../' for plant pages, '' for root pages
      */
     function getBasePath() {
-        const path = window.location.pathname;
-        return path.includes('/plants/') ? '../' : '';
+        try {
+            const path = window.location.pathname;
+            if (typeof path !== 'string') {
+                console.error('[Navigation] Invalid pathname type:', typeof path);
+                return '';
+            }
+            return path.includes('/plants/') ? '../' : '';
+        } catch (error) {
+            console.error('[Navigation] Error in getBasePath:', error);
+            return '';
+        }
     }
 
     /**
      * Determine which nav item should be active
      */
     function getActiveNavId() {
-        const path = window.location.pathname;
-        const filename = path.split('/').pop();
-
-        // Check for exact matches
-        for (const item of NAV_ITEMS) {
-            if (filename === item.href) {
-                return item.id;
+        try {
+            const path = window.location.pathname;
+            if (typeof path !== 'string') {
+                console.error('[Navigation] Invalid pathname type in getActiveNavId:', typeof path);
+                return 'all';
             }
-        }
 
-        // Default to 'all' for plant detail pages
-        if (path.includes('/plants/')) {
-            return null; // No active state on plant pages
-        }
+            const filename = path.split('/').pop();
+            if (!filename) {
+                console.warn('[Navigation] Could not extract filename from path:', path);
+                return 'all';
+            }
 
-        return 'all';
+            // Check for exact matches
+            for (const item of NAV_ITEMS) {
+                if (!item || !item.href || !item.id) {
+                    console.warn('[Navigation] Invalid nav item:', item);
+                    continue;
+                }
+                if (filename === item.href) {
+                    return item.id;
+                }
+            }
+
+            // Default to 'all' for plant detail pages
+            if (path.includes('/plants/')) {
+                return null; // No active state on plant pages
+            }
+
+            return 'all';
+        } catch (error) {
+            console.error('[Navigation] Error in getActiveNavId:', error);
+            return 'all';
+        }
+    }
+
+    /**
+     * Escape HTML to prevent XSS
+     */
+    function escapeHtml(unsafe) {
+        if (typeof unsafe !== 'string') return '';
+        return unsafe
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#039;");
     }
 
     /**
      * Create navigation HTML
      */
     function createNavigation() {
-        const basePath = getBasePath();
-        const activeId = getActiveNavId();
+        try {
+            const basePath = getBasePath();
+            const activeId = getActiveNavId();
 
-        const navHtml = NAV_ITEMS.map(item => {
-            const href = basePath + item.href;
-            const activeClass = activeId === item.id ? ' class="active"' : '';
-            return `<a href="${href}"${activeClass}>${item.label}</a>`;
-        }).join('\n                ');
+            if (!Array.isArray(NAV_ITEMS) || NAV_ITEMS.length === 0) {
+                console.error('[Navigation] Invalid NAV_ITEMS configuration');
+                return '<nav class="system-nav" aria-label="Body systems navigation"><p>Navigation unavailable</p></nav>';
+            }
 
-        return `<nav class="system-nav" aria-label="Body systems navigation">
+            const navHtml = NAV_ITEMS.map(item => {
+                if (!item || !item.href || !item.label) {
+                    console.warn('[Navigation] Skipping invalid nav item:', item);
+                    return '';
+                }
+                const href = escapeHtml(basePath + item.href);
+                const label = escapeHtml(item.label);
+                const activeClass = activeId === item.id ? ' class="active"' : '';
+                return `<a href="${href}"${activeClass}>${label}</a>`;
+            }).filter(Boolean).join('\n                ');
+
+            return `<nav class="system-nav" aria-label="Body systems navigation">
                 ${navHtml}
             </nav>`;
+        } catch (error) {
+            console.error('[Navigation] Error in createNavigation:', error);
+            return '<nav class="system-nav" aria-label="Body systems navigation"><p>Navigation error</p></nav>';
+        }
     }
 
     /**
      * Inject navigation into the page
      */
     function injectNavigation() {
-        const placeholder = document.getElementById('nav-placeholder');
-        if (placeholder) {
-            placeholder.outerHTML = createNavigation();
+        try {
+            const placeholder = document.getElementById('nav-placeholder');
+            if (!placeholder) {
+                console.error('[Navigation] nav-placeholder element not found');
+                return;
+            }
+
+            const navHtml = createNavigation();
+            if (!navHtml || typeof navHtml !== 'string') {
+                console.error('[Navigation] Invalid navigation HTML generated');
+                placeholder.innerHTML = '<p style="color: red; text-align: center;">Navigation failed to load</p>';
+                return;
+            }
+
+            placeholder.outerHTML = navHtml;
+        } catch (error) {
+            console.error('[Navigation] Error in injectNavigation:', error);
+            const placeholder = document.getElementById('nav-placeholder');
+            if (placeholder) {
+                placeholder.innerHTML = '<p style="color: red; text-align: center;">Navigation error occurred</p>';
+            }
         }
     }
 

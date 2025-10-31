@@ -14,15 +14,71 @@
     };
 
     /**
+     * Escape HTML to prevent XSS attacks
+     */
+    function escapeHtml(unsafe) {
+        if (typeof unsafe !== 'string') return '';
+        return unsafe
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#039;");
+    }
+
+    /**
+     * Display error message to user
+     */
+    function showError(message) {
+        const container = document.getElementById('plant-list-container');
+        if (container) {
+            container.innerHTML = '<div class="error-message" role="alert" style="color: red; text-align: center; padding: 20px;">' + escapeHtml(message) + '</div>';
+        }
+    }
+
+    /**
+     * Display info message to user
+     */
+    function showInfo(message) {
+        const container = document.getElementById('plant-list-container');
+        if (container) {
+            container.innerHTML = '<div class="info-message" role="status" style="color: var(--color-placeholder); text-align: center; padding: 20px;">' + escapeHtml(message) + '</div>';
+        }
+    }
+
+    /**
      * Initialize search and filter functionality
      */
     function init() {
-        // Store all plants data
+        // Store all plants data with validation
         if (typeof window.PLANTS_DATA === 'undefined') {
-            console.error('PLANTS_DATA not loaded');
+            console.error('[SearchFilter] PLANTS_DATA not loaded');
+            showError('Plant database failed to load. Please refresh the page.');
             return;
         }
+
+        if (!Array.isArray(window.PLANTS_DATA)) {
+            console.error('[SearchFilter] PLANTS_DATA is not an array');
+            showError('Plant database is corrupted. Please contact support.');
+            return;
+        }
+
+        if (window.PLANTS_DATA.length === 0) {
+            console.warn('[SearchFilter] PLANTS_DATA is empty');
+            showInfo('No plants available in the database.');
+            return;
+        }
+
         allPlants = window.PLANTS_DATA;
+
+        // Validate data structure
+        const invalidPlants = allPlants.filter(plant =>
+            !plant.commonName || !plant.botanicalName || !plant.systems
+        );
+
+        if (invalidPlants.length > 0) {
+            console.error('[SearchFilter] Found invalid plant entries:', invalidPlants);
+        }
 
         // Set up event listeners
         setupSearchInput();
@@ -112,12 +168,15 @@
             return;
         }
 
-        const filterTags = currentFilters.properties.map(prop => `
-            <span class="filter-tag">
-                ${prop}
-                <button class="remove-filter" data-property="${prop}" aria-label="Remove ${prop} filter">×</button>
-            </span>
-        `).join('');
+        const filterTags = currentFilters.properties.map(prop => {
+            const escapedProp = escapeHtml(prop);
+            return `
+                <span class="filter-tag">
+                    ${escapedProp}
+                    <button class="remove-filter" data-property="${escapedProp}" aria-label="Remove ${escapedProp} filter">×</button>
+                </span>
+            `;
+        }).join('');
 
         container.innerHTML = `
             <div class="active-filters-wrapper">
@@ -126,18 +185,35 @@
             </div>
         `;
 
-        // Add event listeners to remove buttons
-        container.querySelectorAll('.remove-filter').forEach(btn => {
-            btn.addEventListener('click', function() {
-                removePropertyFilter(this.dataset.property);
-            });
-        });
+        // Use event delegation instead of individual listeners
+        setupFilterTagListeners();
+    }
 
-        // Add event listener to clear all button
-        const clearBtn = document.getElementById('clear-filters-btn');
-        if (clearBtn) {
-            clearBtn.addEventListener('click', clearAllFilters);
+    /**
+     * Setup event listeners for filter tags using event delegation
+     */
+    function setupFilterTagListeners() {
+        const container = document.getElementById('active-filters');
+        if (!container) return;
+
+        // Remove old listener if exists
+        if (container._filterClickHandler) {
+            container.removeEventListener('click', container._filterClickHandler);
         }
+
+        // Add single delegated listener
+        container._filterClickHandler = function(e) {
+            if (e.target.classList.contains('remove-filter')) {
+                const property = e.target.dataset.property;
+                if (property) {
+                    removePropertyFilter(property);
+                }
+            } else if (e.target.classList.contains('clear-all-filters') || e.target.id === 'clear-filters-btn') {
+                clearAllFilters();
+            }
+        };
+
+        container.addEventListener('click', container._filterClickHandler);
     }
 
     /**
@@ -219,16 +295,16 @@
             a.commonName.localeCompare(b.commonName)
         );
 
-        // Use existing renderer to create cards
+        // Use existing renderer to create cards with sanitization
         const html = sorted.map(plant => {
             const basePath = 'plants/';
             const commonNames = createCommonNamesHTML(plant);
             const systemBadges = createSystemBadgesHTML(plant);
 
             return `
-                <div class="plant-card ${plant.status}">
-                    <h3><a href="${basePath}${plant.fileSlug}.html">${plant.commonName}</a></h3>
-                    <p class="botanical-name">${plant.botanicalName}</p>
+                <div class="plant-card ${escapeHtml(plant.status || '')}">
+                    <h3><a href="${basePath}${escapeHtml(plant.fileSlug)}.html">${escapeHtml(plant.commonName)}</a></h3>
+                    <p class="botanical-name">${escapeHtml(plant.botanicalName)}</p>
                     ${commonNames}
                     ${systemBadges}
                 </div>`;
@@ -253,7 +329,7 @@
     }
 
     /**
-     * Helper function to create common names HTML
+     * Helper function to create common names HTML with sanitization
      */
     function createCommonNamesHTML(plant) {
         if (!plant.danishName && !plant.frenchName) {
@@ -262,77 +338,95 @@
 
         const parts = [];
         if (plant.danishName) {
-            parts.push(`<span class="lang-label">DA:</span> ${plant.danishName}`);
+            parts.push(`<span class="lang-label">DA:</span> ${escapeHtml(plant.danishName)}`);
         }
         if (plant.frenchName) {
-            parts.push(`<span class="lang-label">FR:</span> ${plant.frenchName}`);
+            parts.push(`<span class="lang-label">FR:</span> ${escapeHtml(plant.frenchName)}`);
         }
 
         return `<p class="common-names">${parts.join(' · ')}</p>`;
     }
 
     /**
-     * Helper function to create system badges HTML
+     * Helper function to create system badges HTML with sanitization
      */
     function createSystemBadgesHTML(plant) {
-        const SYSTEM_CONFIG = window.PlantsRenderer.SYSTEM_CONFIG;
+        if (!plant.systems || !Array.isArray(plant.systems)) {
+            return '<p></p>';
+        }
+
+        const SYSTEM_CONFIG = window.PlantsRenderer ? window.PlantsRenderer.SYSTEM_CONFIG : null;
+        if (!SYSTEM_CONFIG) {
+            console.warn('[SearchFilter] SYSTEM_CONFIG not available');
+            return '<p></p>';
+        }
+
         const badges = plant.systems.map(systemId => {
-            const system = SYSTEM_CONFIG[systemId];
+            const system = SYSTEM_CONFIG[escapeHtml(systemId)];
             if (!system) return '';
-            return `<span class="system-badge ${system.class}">${system.label}</span>`;
+            return `<span class="system-badge ${escapeHtml(system.class)}">${escapeHtml(system.label)}</span>`;
         }).join(' ');
 
         return `<p>${badges}</p>`;
     }
 
     /**
-     * Populate property dropdown with all available properties
+     * Populate property dropdown with all available properties (with validation and sanitization)
      */
     function populatePropertyDropdown() {
         const select = document.getElementById('property-filter');
         if (!select) return;
 
-        // Get all unique properties from plants
+        // Get all unique properties from plants with validation
         const allProperties = new Set();
         allPlants.forEach(plant => {
-            if (plant.properties) {
-                plant.properties.forEach(prop => allProperties.add(prop));
+            if (plant.properties && Array.isArray(plant.properties)) {
+                plant.properties.forEach(prop => {
+                    if (typeof prop === 'string' && prop.trim().length > 0 && prop.length < 200) {
+                        allProperties.add(prop.trim());
+                    }
+                });
             }
         });
 
         // Sort properties alphabetically
         const sortedProperties = Array.from(allProperties).sort();
 
-        // Create options
-        const options = sortedProperties.map(prop =>
-            `<option value="${prop}">${prop}</option>`
-        ).join('');
+        // Create options with sanitization
+        const options = sortedProperties.map(prop => {
+            const escaped = escapeHtml(prop);
+            return `<option value="${escaped}">${escaped}</option>`;
+        }).join('');
 
         select.innerHTML = `<option value="">Select a property...</option>${options}`;
     }
 
     /**
-     * Populate family dropdown with all available botanical families
+     * Populate family dropdown with all available botanical families (with validation and sanitization)
      */
     function populateFamilyDropdown() {
         const select = document.getElementById('family-filter');
         if (!select) return;
 
-        // Get all unique families from plants
+        // Get all unique families from plants with validation
         const allFamilies = new Set();
         allPlants.forEach(plant => {
-            if (plant.family) {
-                allFamilies.add(plant.family);
+            if (plant.family && typeof plant.family === 'string') {
+                const family = plant.family.trim();
+                if (family.length > 0 && family.length < 200) {
+                    allFamilies.add(family);
+                }
             }
         });
 
         // Sort families alphabetically
         const sortedFamilies = Array.from(allFamilies).sort();
 
-        // Create options
-        const options = sortedFamilies.map(family =>
-            `<option value="${family}">${family}</option>`
-        ).join('');
+        // Create options with sanitization
+        const options = sortedFamilies.map(family => {
+            const escaped = escapeHtml(family);
+            return `<option value="${escaped}">${escaped}</option>`;
+        }).join('');
 
         select.innerHTML = `<option value="">Select a family...</option>${options}`;
     }
