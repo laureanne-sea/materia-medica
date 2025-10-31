@@ -1,0 +1,24 @@
+{
+  "name": "materia-medica",
+  "version": "1.0.0",
+  "description": "A comprehensive medicinal plants database with search and filtering",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "herbal-medicine",
+    "medicinal-plants",
+    "materia-medica"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitest/ui": "^2.0.0",
+    "jsdom": "^25.0.0",
+    "vitest": "^2.0.0"
+  }
+}
