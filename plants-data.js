@@ -770,7 +770,7 @@ window.PLANTS_DATA = [
       "Analgesic",
       "Antifungal"
     ],
-    "status": "in-progress",
+    "status": "complete",
     "fileSlug": "chamomile"
   },
   {
